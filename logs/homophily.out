@@ -1,0 +1,528 @@
+=== cora / node_homo ===
+The Homophily level of given dataset cora is 0.825157880783081 using metric node_homo
+=== cora / edge_homo ===
+The Homophily level of given dataset cora is 0.8487635850906372 using metric edge_homo
+=== cora / class_homo ===
+The Homophily level of given dataset cora is 0.7657180428504944 using metric class_homo
+=== cora / adj_homo ===
+The Homophily level of given dataset cora is 0.8178210258483887 using metric adj_homo
+=== cora / den_homo ===
+The Homophily level of given dataset cora is 0.502086877822876 using metric den_homo
+=== cora / two_hop_homo ===
+The Homophily level of given dataset cora is 0.7582589387893677 using metric two_hop_homo
+=== cora / neibh_homo ===
+The Homophily level of given dataset cora is 0.8137686848640442 using metric neibh_homo
+=== cora / label_info ===
+The Homophily level of given dataset cora is 0.5903741121292114 using metric label_info
+=== cora / agg_homo_soft ===
+The Homophily level of given dataset cora is 0.9903987646102905 using metric agg_homo_soft
+=== cora / h_s ===
+The Homophily level of given dataset cora is 0.11907096207141876 using metric h_s
+=== cora / localsim_cos_homo ===
+The Homophily level of given dataset cora is 0.33603715896606445 using metric localsim_cos_homo
+=== cora / localsim_euc_homo ===
+The Homophily level of given dataset cora is -36.143428802490234 using metric localsim_euc_homo
+=== cora / attr_homo ===
+The Homophily level of given dataset cora is 14344052.0 using metric attr_homo
+=== cora / cls_ctrl_feat_homo ===
+The Homophily level of given dataset cora is 0.3523019552230835 using metric cls_ctrl_feat_homo
+=== cora / h_f ===
+The Homophily level of given dataset cora is 0.14999999105930328 using metric h_f
+=== citeseer / node_homo ===
+The Homophily level of given dataset citeseer is 0.7165876626968384 using metric node_homo
+=== citeseer / edge_homo ===
+The Homophily level of given dataset citeseer is 0.8062907457351685 using metric edge_homo
+=== citeseer / class_homo ===
+The Homophily level of given dataset citeseer is 0.6267309784889221 using metric class_homo
+=== citeseer / adj_homo ===
+The Homophily level of given dataset citeseer is 0.7588032484054565 using metric adj_homo
+=== citeseer / den_homo ===
+The Homophily level of given dataset citeseer is 0.5017896294593811 using metric den_homo
+=== citeseer / two_hop_homo ===
+The Homophily level of given dataset citeseer is 0.6944515109062195 using metric two_hop_homo
+=== citeseer / neibh_homo ===
+The Homophily level of given dataset citeseer is 0.8124697208404541 using metric neibh_homo
+=== citeseer / label_info ===
+The Homophily level of given dataset citeseer is 0.4507601261138916 using metric label_info
+=== citeseer / agg_homo_soft ===
+The Homophily level of given dataset citeseer is 0.9825668334960938 using metric agg_homo_soft
+=== citeseer / h_s ===
+The Homophily level of given dataset citeseer is 0.1937836855649948 using metric h_s
+=== citeseer / localsim_cos_homo ===
+The Homophily level of given dataset citeseer is 0.4715055525302887 using metric localsim_cos_homo
+=== citeseer / localsim_euc_homo ===
+The Homophily level of given dataset citeseer is -49.1759147644043 using metric localsim_euc_homo
+=== citeseer / attr_homo ===
+The Homophily level of given dataset citeseer is -5250112.0 using metric attr_homo
+=== citeseer / cls_ctrl_feat_homo ===
+The Homophily level of given dataset citeseer is 0.5896957516670227 using metric cls_ctrl_feat_homo
+=== citeseer / h_f ===
+The Homophily level of given dataset citeseer is 0.7699999809265137 using metric h_f
+=== pubmed / node_homo ===
+The Homophily level of given dataset pubmed is 0.792412281036377 using metric node_homo
+=== pubmed / edge_homo ===
+The Homophily level of given dataset pubmed is 0.8383426666259766 using metric edge_homo
+=== pubmed / class_homo ===
+The Homophily level of given dataset pubmed is 0.6641403436660767 using metric class_homo
+=== pubmed / adj_homo ===
+The Homophily level of given dataset pubmed is 0.7431498765945435 using metric adj_homo
+=== pubmed / den_homo ===
+The Homophily level of given dataset pubmed is 0.5002604722976685 using metric den_homo
+=== pubmed / two_hop_homo ===
+The Homophily level of given dataset pubmed is 0.7483265399932861 using metric two_hop_homo
+=== pubmed / neibh_homo ===
+The Homophily level of given dataset pubmed is 0.8203290700912476 using metric neibh_homo
+=== pubmed / label_info ===
+The Homophily level of given dataset pubmed is 0.40928447246551514 using metric label_info
+=== pubmed / agg_homo_soft ===
+The Homophily level of given dataset pubmed is 0.9310130953788758 using metric agg_homo_soft
+=== pubmed / h_s ===
+The Homophily level of given dataset pubmed is 0.29624471068382263 using metric h_s
+=== pubmed / localsim_cos_homo ===
+The Homophily level of given dataset pubmed is 0.4437098503112793 using metric localsim_cos_homo
+=== pubmed / localsim_euc_homo ===
+The Homophily level of given dataset pubmed is -18.790067672729492 using metric localsim_euc_homo
+=== pubmed / attr_homo ===
+The Homophily level of given dataset pubmed is 17585426.0 using metric attr_homo
+=== pubmed / cls_ctrl_feat_homo ===
+The Homophily level of given dataset pubmed is 0.4061867296695709 using metric cls_ctrl_feat_homo
+=== pubmed / h_f ===
+The Homophily level of given dataset pubmed is 1.0 using metric h_f
+=== amazon-photo / node_homo ===
+The Homophily level of given dataset amazon-photo is 0.8492580056190491 using metric node_homo
+=== amazon-photo / edge_homo ===
+The Homophily level of given dataset amazon-photo is 0.8326200246810913 using metric edge_homo
+=== amazon-photo / class_homo ===
+The Homophily level of given dataset amazon-photo is 0.7722325921058655 using metric class_homo
+=== amazon-photo / adj_homo ===
+The Homophily level of given dataset amazon-photo is 0.7917094826698303 using metric adj_homo
+=== amazon-photo / den_homo ===
+The Homophily level of given dataset amazon-photo is 0.5038624405860901 using metric den_homo
+=== amazon-photo / two_hop_homo ===
+The Homophily level of given dataset amazon-photo is 0.658905565738678 using metric two_hop_homo
+=== amazon-photo / neibh_homo ===
+The Homophily level of given dataset amazon-photo is 0.7261892557144165 using metric neibh_homo
+=== amazon-photo / label_info ===
+The Homophily level of given dataset amazon-photo is 0.666228175163269 using metric label_info
+=== amazon-photo / agg_homo_soft ===
+The Homophily level of given dataset amazon-photo is 0.9882352352142334 using metric agg_homo_soft
+=== amazon-photo / h_s ===
+The Homophily level of given dataset amazon-photo is 0.12242218106985092 using metric h_s
+=== amazon-photo / localsim_cos_homo ===
+The Homophily level of given dataset amazon-photo is 0.1908007562160492 using metric localsim_cos_homo
+=== amazon-photo / localsim_euc_homo ===
+The Homophily level of given dataset amazon-photo is -27.74947738647461 using metric localsim_euc_homo
+=== amazon-photo / attr_homo ===
+The Homophily level of given dataset amazon-photo is -625464.6875 using metric attr_homo
+=== amazon-photo / cls_ctrl_feat_homo ===
+The Homophily level of given dataset amazon-photo is 0.10862760990858078 using metric cls_ctrl_feat_homo
+=== amazon-photo / h_f ===
+The Homophily level of given dataset amazon-photo is 0.9099999666213989 using metric h_f
+=== amazon-computer / node_homo ===
+The Homophily level of given dataset amazon-computer is 0.8016897439956665 using metric node_homo
+=== amazon-computer / edge_homo ===
+The Homophily level of given dataset amazon-computer is 0.7832766771316528 using metric edge_homo
+=== amazon-computer / class_homo ===
+The Homophily level of given dataset amazon-computer is 0.7001734375953674 using metric class_homo
+=== amazon-computer / adj_homo ===
+The Homophily level of given dataset amazon-computer is 0.6909786462783813 using metric adj_homo
+=== amazon-computer / den_homo ===
+The Homophily level of given dataset amazon-computer is 0.5016894340515137 using metric den_homo
+=== amazon-computer / two_hop_homo ===
+The Homophily level of given dataset amazon-computer is 0.5666596293449402 using metric two_hop_homo
+=== amazon-computer / neibh_homo ===
+The Homophily level of given dataset amazon-computer is 0.6640996932983398 using metric neibh_homo
+=== amazon-computer / label_info ===
+The Homophily level of given dataset amazon-computer is 0.5279072523117065 using metric label_info
+=== amazon-computer / agg_homo_soft ===
+The Homophily level of given dataset amazon-computer is 0.9879976749420166 using metric agg_homo_soft
+=== amazon-computer / h_s ===
+The Homophily level of given dataset amazon-computer is 0.06940840929746628 using metric h_s
+=== amazon-computer / localsim_cos_homo ===
+The Homophily level of given dataset amazon-computer is 0.17876046895980835 using metric localsim_cos_homo
+=== amazon-computer / localsim_euc_homo ===
+The Homophily level of given dataset amazon-computer is -27.799165725708008 using metric localsim_euc_homo
+=== amazon-computer / attr_homo ===
+The Homophily level of given dataset amazon-computer is -3948855.0 using metric attr_homo
+=== amazon-computer / cls_ctrl_feat_homo ===
+The Homophily level of given dataset amazon-computer is 0.09693770110607147 using metric cls_ctrl_feat_homo
+=== amazon-computer / h_f ===
+The Homophily level of given dataset amazon-computer is 1.0 using metric h_f
+=== coauthor-cs / node_homo ===
+The Homophily level of given dataset coauthor-cs is 0.8320007920265198 using metric node_homo
+=== coauthor-cs / edge_homo ===
+The Homophily level of given dataset coauthor-cs is 0.827378511428833 using metric edge_homo
+=== coauthor-cs / class_homo ===
+The Homophily level of given dataset coauthor-cs is 0.7546911239624023 using metric class_homo
+=== coauthor-cs / adj_homo ===
+The Homophily level of given dataset coauthor-cs is 0.8062314391136169 using metric adj_homo
+=== coauthor-cs / den_homo ===
+The Homophily level of given dataset coauthor-cs is 0.5009397864341736 using metric den_homo
+=== coauthor-cs / two_hop_homo ===
+The Homophily level of given dataset coauthor-cs is 0.6908060312271118 using metric two_hop_homo
+=== coauthor-cs / neibh_homo ===
+The Homophily level of given dataset coauthor-cs is 0.729343831539154 using metric neibh_homo
+=== coauthor-cs / label_info ===
+The Homophily level of given dataset coauthor-cs is 0.6466625928878784 using metric label_info
+=== coauthor-cs / agg_homo_soft ===
+The Homophily level of given dataset coauthor-cs is 0.9993860721588135 using metric agg_homo_soft
+=== coauthor-cs / h_s ===
+The Homophily level of given dataset coauthor-cs is 0.05319172143936157 using metric h_s
+=== coauthor-cs / localsim_cos_homo ===
+The Homophily level of given dataset coauthor-cs is 0.3480331599712372 using metric localsim_cos_homo
+=== coauthor-cs / localsim_euc_homo ===
+The Homophily level of given dataset coauthor-cs is -95.84010314941406 using metric localsim_euc_homo
+=== coauthor-cs / attr_homo ===
+The Homophily level of given dataset coauthor-cs is 3277513.75 using metric attr_homo
+=== coauthor-cs / cls_ctrl_feat_homo ===
+The Homophily level of given dataset coauthor-cs is 0.2535577714443207 using metric cls_ctrl_feat_homo
+=== coauthor-cs / h_f ===
+The Homophily level of given dataset coauthor-cs is 0.4399999976158142 using metric h_f
+=== wikics / node_homo ===
+The Homophily level of given dataset wikics is 0.6773914694786072 using metric node_homo
+=== wikics / edge_homo ===
+The Homophily level of given dataset wikics is 0.6634553074836731 using metric edge_homo
+=== wikics / class_homo ===
+The Homophily level of given dataset wikics is 0.5675399303436279 using metric class_homo
+=== wikics / adj_homo ===
+The Homophily level of given dataset wikics is 0.5901487469673157 using metric adj_homo
+=== wikics / den_homo ===
+The Homophily level of given dataset wikics is 0.5024284720420837 using metric den_homo
+=== wikics / two_hop_homo ===
+The Homophily level of given dataset wikics is 0.37321195006370544 using metric two_hop_homo
+=== wikics / neibh_homo ===
+The Homophily level of given dataset wikics is 0.45932838320732117 using metric neibh_homo
+=== wikics / label_info ===
+The Homophily level of given dataset wikics is 0.36915576457977295 using metric label_info
+=== wikics / agg_homo_soft ===
+The Homophily level of given dataset wikics is 0.9674387693405151 using metric agg_homo_soft
+=== wikics / h_s ===
+The Homophily level of given dataset wikics is 0.09225891530513763 using metric h_s
+=== wikics / localsim_cos_homo ===
+The Homophily level of given dataset wikics is 0.4899046719074249 using metric localsim_cos_homo
+=== wikics / localsim_euc_homo ===
+The Homophily level of given dataset wikics is -14.746075630187988 using metric localsim_euc_homo
+=== wikics / attr_homo ===
+The Homophily level of given dataset wikics is -10573036.0 using metric attr_homo
+=== wikics / cls_ctrl_feat_homo ===
+The Homophily level of given dataset wikics is 0.36294880509376526 using metric cls_ctrl_feat_homo
+=== wikics / h_f ===
+The Homophily level of given dataset wikics is 1.0 using metric h_f
+=== roman-empire / node_homo ===
+The Homophily level of given dataset roman-empire is 0.0460478812456131 using metric node_homo
+=== roman-empire / edge_homo ===
+The Homophily level of given dataset roman-empire is 0.2909078598022461 using metric edge_homo
+=== roman-empire / class_homo ===
+The Homophily level of given dataset roman-empire is 0.02082376927137375 using metric class_homo
+=== roman-empire / adj_homo ===
+The Homophily level of given dataset roman-empire is 0.2212347388267517 using metric adj_homo
+=== roman-empire / den_homo ===
+The Homophily level of given dataset roman-empire is 0.49995625019073486 using metric den_homo
+=== roman-empire / two_hop_homo ===
+The Homophily level of given dataset roman-empire is 0.06688583642244339 using metric two_hop_homo
+=== roman-empire / neibh_homo ===
+The Homophily level of given dataset roman-empire is 0.26609766483306885 using metric neibh_homo
+=== roman-empire / label_info ===
+The Homophily level of given dataset roman-empire is 0.11014282703399658 using metric label_info
+=== roman-empire / agg_homo_soft ===
+The Homophily level of given dataset roman-empire is 0.9995490550994873 using metric agg_homo_soft
+=== roman-empire / h_s ===
+The Homophily level of given dataset roman-empire is 0.12068048864603043 using metric h_s
+=== roman-empire / localsim_cos_homo ===
+The Homophily level of given dataset roman-empire is 0.31208401918411255 using metric localsim_cos_homo
+=== roman-empire / localsim_euc_homo ===
+The Homophily level of given dataset roman-empire is -15.960809707641602 using metric localsim_euc_homo
+=== roman-empire / attr_homo ===
+The Homophily level of given dataset roman-empire is 21955942.0 using metric attr_homo
+=== roman-empire / cls_ctrl_feat_homo ===
+The Homophily level of given dataset roman-empire is 0.34477221965789795 using metric cls_ctrl_feat_homo
+=== roman-empire / h_f ===
+The Homophily level of given dataset roman-empire is 0.12999999523162842 using metric h_f
+=== amazon-ratings / node_homo ===
+The Homophily level of given dataset amazon-ratings is 0.37570720911026 using metric node_homo
+=== amazon-ratings / edge_homo ===
+The Homophily level of given dataset amazon-ratings is 0.4524388313293457 using metric edge_homo
+=== amazon-ratings / class_homo ===
+The Homophily level of given dataset amazon-ratings is 0.12660527229309082 using metric class_homo
+=== amazon-ratings / adj_homo ===
+The Homophily level of given dataset amazon-ratings is 0.2402220517396927 using metric adj_homo
+=== amazon-ratings / den_homo ===
+The Homophily level of given dataset amazon-ratings is 0.5000887513160706 using metric den_homo
+=== amazon-ratings / two_hop_homo ===
+The Homophily level of given dataset amazon-ratings is 0.36866500973701477 using metric two_hop_homo
+=== amazon-ratings / neibh_homo ===
+The Homophily level of given dataset amazon-ratings is 0.5129011273384094 using metric neibh_homo
+=== amazon-ratings / label_info ===
+The Homophily level of given dataset amazon-ratings is 0.03976750373840332 using metric label_info
+=== amazon-ratings / agg_homo_soft ===
+The Homophily level of given dataset amazon-ratings is 0.594503927230835 using metric agg_homo_soft
+=== amazon-ratings / h_s ===
+The Homophily level of given dataset amazon-ratings is 0.21222075819969177 using metric h_s
+=== amazon-ratings / localsim_cos_homo ===
+The Homophily level of given dataset amazon-ratings is 0.3296266496181488 using metric localsim_cos_homo
+=== amazon-ratings / localsim_euc_homo ===
+The Homophily level of given dataset amazon-ratings is -17.289470672607422 using metric localsim_euc_homo
+=== amazon-ratings / attr_homo ===
+The Homophily level of given dataset amazon-ratings is 11238128.0 using metric attr_homo
+=== amazon-ratings / cls_ctrl_feat_homo ===
+The Homophily level of given dataset amazon-ratings is 0.3246432840824127 using metric cls_ctrl_feat_homo
+=== amazon-ratings / h_f ===
+The Homophily level of given dataset amazon-ratings is 1.0 using metric h_f
+=== minesweeper / node_homo ===
+The Homophily level of given dataset minesweeper is 0.6829008460044861 using metric node_homo
+=== minesweeper / edge_homo ===
+The Homophily level of given dataset minesweeper is 0.7185036540031433 using metric edge_homo
+=== minesweeper / class_homo ===
+=== minesweeper / adj_homo ===
+The Homophily level of given dataset minesweeper is 0.12091778963804245 using metric adj_homo
+=== minesweeper / den_homo ===
+=== minesweeper / two_hop_homo ===
+The Homophily level of given dataset minesweeper is 0.6808589100837708 using metric two_hop_homo
+=== minesweeper / neibh_homo ===
+The Homophily level of given dataset minesweeper is 0.7999359369277954 using metric neibh_homo
+=== minesweeper / label_info ===
+The Homophily level of given dataset minesweeper is 8.666515350341797e-05 using metric label_info
+=== minesweeper / agg_homo_soft ===
+=== minesweeper / h_s ===
+The Homophily level of given dataset minesweeper is 0.14992870390415192 using metric h_s
+=== minesweeper / localsim_cos_homo ===
+The Homophily level of given dataset minesweeper is 0.20788803696632385 using metric localsim_cos_homo
+=== minesweeper / localsim_euc_homo ===
+The Homophily level of given dataset minesweeper is -2.4928383827209473 using metric localsim_euc_homo
+=== minesweeper / attr_homo ===
+The Homophily level of given dataset minesweeper is 1855395.375 using metric attr_homo
+=== minesweeper / cls_ctrl_feat_homo ===
+=== minesweeper / h_f ===
+The Homophily level of given dataset minesweeper is 0.5 using metric h_f
+=== tolokers / node_homo ===
+The Homophily level of given dataset tolokers is 0.634446918964386 using metric node_homo
+=== tolokers / edge_homo ===
+The Homophily level of given dataset tolokers is 0.5990638136863708 using metric edge_homo
+=== tolokers / class_homo ===
+=== tolokers / adj_homo ===
+The Homophily level of given dataset tolokers is 0.10274744033813477 using metric adj_homo
+=== tolokers / den_homo ===
+=== tolokers / two_hop_homo ===
+The Homophily level of given dataset tolokers is 0.6510487794876099 using metric two_hop_homo
+=== tolokers / neibh_homo ===
+The Homophily level of given dataset tolokers is 0.7388005256652832 using metric neibh_homo
+=== tolokers / label_info ===
+The Homophily level of given dataset tolokers is 0.006628155708312988 using metric label_info
+=== tolokers / agg_homo_soft ===
+=== tolokers / h_s ===
+The Homophily level of given dataset tolokers is 0.219366654753685 using metric h_s
+=== tolokers / localsim_cos_homo ===
+The Homophily level of given dataset tolokers is 0.23374196887016296 using metric localsim_cos_homo
+=== tolokers / localsim_euc_homo ===
+The Homophily level of given dataset tolokers is -3.357452154159546 using metric localsim_euc_homo
+=== tolokers / attr_homo ===
+The Homophily level of given dataset tolokers is -12215493.0 using metric attr_homo
+=== tolokers / cls_ctrl_feat_homo ===
+=== tolokers / h_f ===
+The Homophily level of given dataset tolokers is 1.0 using metric h_f
+=== questions / node_homo ===
+The Homophily level of given dataset questions is 0.897985577583313 using metric node_homo
+=== questions / edge_homo ===
+The Homophily level of given dataset questions is 0.8616127371788025 using metric edge_homo
+=== questions / class_homo ===
+=== questions / adj_homo ===
+The Homophily level of given dataset questions is 0.1552494317293167 using metric adj_homo
+=== questions / den_homo ===
+=== questions / two_hop_homo ===
+The Homophily level of given dataset questions is 0.9097158908843994 using metric two_hop_homo
+=== questions / neibh_homo ===
+The Homophily level of given dataset questions is 0.9342104196548462 using metric neibh_homo
+=== questions / label_info ===
+The Homophily level of given dataset questions is 0.0006699562072753906 using metric label_info
+=== questions / agg_homo_soft ===
+=== questions / h_s ===
+The Homophily level of given dataset questions is 0.22570264339447021 using metric h_s
+=== questions / localsim_cos_homo ===
+The Homophily level of given dataset questions is 0.37533852458000183 using metric localsim_cos_homo
+=== questions / localsim_euc_homo ===
+The Homophily level of given dataset questions is -13.61756706237793 using metric localsim_euc_homo
+=== questions / attr_homo ===
+The Homophily level of given dataset questions is -10866491.0 using metric attr_homo
+=== questions / cls_ctrl_feat_homo ===
+=== questions / h_f ===
+The Homophily level of given dataset questions is 0.7199999690055847 using metric h_f
+=== squirrel-filtered / node_homo ===
+The Homophily level of given dataset squirrel-filtered is 0.1904737502336502 using metric node_homo
+=== squirrel-filtered / edge_homo ===
+The Homophily level of given dataset squirrel-filtered is 0.22549600899219513 using metric edge_homo
+=== squirrel-filtered / class_homo ===
+The Homophily level of given dataset squirrel-filtered is 0.03980144113302231 using metric class_homo
+=== squirrel-filtered / adj_homo ===
+The Homophily level of given dataset squirrel-filtered is 0.03152193874120712 using metric adj_homo
+=== squirrel-filtered / den_homo ===
+The Homophily level of given dataset squirrel-filtered is 0.49171632528305054 using metric den_homo
+=== squirrel-filtered / two_hop_homo ===
+The Homophily level of given dataset squirrel-filtered is 0.22309395670890808 using metric two_hop_homo
+=== squirrel-filtered / neibh_homo ===
+The Homophily level of given dataset squirrel-filtered is 0.31802159547805786 using metric neibh_homo
+=== squirrel-filtered / label_info ===
+The Homophily level of given dataset squirrel-filtered is 0.0013257265090942383 using metric label_info
+=== squirrel-filtered / agg_homo_soft ===
+The Homophily level of given dataset squirrel-filtered is 0.4934772253036499 using metric agg_homo_soft
+=== squirrel-filtered / h_s ===
+The Homophily level of given dataset squirrel-filtered is 0.13794413208961487 using metric h_s
+=== squirrel-filtered / localsim_cos_homo ===
+The Homophily level of given dataset squirrel-filtered is 0.14320684969425201 using metric localsim_cos_homo
+=== squirrel-filtered / localsim_euc_homo ===
+The Homophily level of given dataset squirrel-filtered is -46.149314880371094 using metric localsim_euc_homo
+=== squirrel-filtered / attr_homo ===
+The Homophily level of given dataset squirrel-filtered is 2271413.0 using metric attr_homo
+=== squirrel-filtered / cls_ctrl_feat_homo ===
+The Homophily level of given dataset squirrel-filtered is 0.3151372969150543 using metric cls_ctrl_feat_homo
+=== squirrel-filtered / h_f ===
+The Homophily level of given dataset squirrel-filtered is 0.0 using metric h_f
+=== chameleon-filtered / node_homo ===
+The Homophily level of given dataset chameleon-filtered is 0.24405889213085175 using metric node_homo
+=== chameleon-filtered / edge_homo ===
+The Homophily level of given dataset chameleon-filtered is 0.2726099491119385 using metric edge_homo
+=== chameleon-filtered / class_homo ===
+The Homophily level of given dataset chameleon-filtered is 0.04437711089849472 using metric class_homo
+=== chameleon-filtered / adj_homo ===
+The Homophily level of given dataset chameleon-filtered is 0.07597282528877258 using metric adj_homo
+=== chameleon-filtered / den_homo ===
+The Homophily level of given dataset chameleon-filtered is 0.4947924017906189 using metric den_homo
+=== chameleon-filtered / two_hop_homo ===
+The Homophily level of given dataset chameleon-filtered is 0.27525806427001953 using metric two_hop_homo
+=== chameleon-filtered / neibh_homo ===
+The Homophily level of given dataset chameleon-filtered is 0.4126969873905182 using metric neibh_homo
+=== chameleon-filtered / label_info ===
+The Homophily level of given dataset chameleon-filtered is 0.013897538185119629 using metric label_info
+=== chameleon-filtered / agg_homo_soft ===
+The Homophily level of given dataset chameleon-filtered is 0.7168539762496948 using metric agg_homo_soft
+=== chameleon-filtered / h_s ===
+The Homophily level of given dataset chameleon-filtered is 0.17879804968833923 using metric h_s
+=== chameleon-filtered / localsim_cos_homo ===
+The Homophily level of given dataset chameleon-filtered is 0.16567453742027283 using metric localsim_cos_homo
+=== chameleon-filtered / localsim_euc_homo ===
+The Homophily level of given dataset chameleon-filtered is -56.44379425048828 using metric localsim_euc_homo
+=== chameleon-filtered / attr_homo ===
+The Homophily level of given dataset chameleon-filtered is -6966120.0 using metric attr_homo
+=== chameleon-filtered / cls_ctrl_feat_homo ===
+The Homophily level of given dataset chameleon-filtered is -0.03600192815065384 using metric cls_ctrl_feat_homo
+=== chameleon-filtered / h_f ===
+The Homophily level of given dataset chameleon-filtered is 0.0 using metric h_f
+=== actor / node_homo ===
+The Homophily level of given dataset actor is 0.21993501484394073 using metric node_homo
+=== actor / edge_homo ===
+The Homophily level of given dataset actor is 0.314455509185791 using metric edge_homo
+=== actor / class_homo ===
+The Homophily level of given dataset actor is 0.006440436467528343 using metric class_homo
+=== actor / adj_homo ===
+The Homophily level of given dataset actor is 0.1271892488002777 using metric adj_homo
+=== actor / den_homo ===
+The Homophily level of given dataset actor is 0.500241756439209 using metric den_homo
+=== actor / two_hop_homo ===
+The Homophily level of given dataset actor is 0.21324028074741364 using metric two_hop_homo
+=== actor / neibh_homo ===
+The Homophily level of given dataset actor is 0.30413949489593506 using metric neibh_homo
+=== actor / label_info ===
+The Homophily level of given dataset actor is 0.0001728534698486328 using metric label_info
+=== actor / agg_homo_soft ===
+The Homophily level of given dataset actor is 0.6794736385345459 using metric agg_homo_soft
+=== actor / h_s ===
+The Homophily level of given dataset actor is 0.24571923911571503 using metric h_s
+=== actor / localsim_cos_homo ===
+The Homophily level of given dataset actor is 0.2514813244342804 using metric localsim_cos_homo
+=== actor / localsim_euc_homo ===
+The Homophily level of given dataset actor is -30.34052848815918 using metric localsim_euc_homo
+=== actor / attr_homo ===
+The Homophily level of given dataset actor is 8412076.0 using metric attr_homo
+=== actor / cls_ctrl_feat_homo ===
+The Homophily level of given dataset actor is 0.20936989784240723 using metric cls_ctrl_feat_homo
+=== actor / h_f ===
+The Homophily level of given dataset actor is 0.0 using metric h_f
+=== texas-4-classes / node_homo ===
+The Homophily level of given dataset texas-4-classes is 0.05666450783610344 using metric node_homo
+=== texas-4-classes / edge_homo ===
+The Homophily level of given dataset texas-4-classes is 0.29284751415252686 using metric edge_homo
+=== texas-4-classes / class_homo ===
+The Homophily level of given dataset texas-4-classes is 0.0 using metric class_homo
+=== texas-4-classes / adj_homo ===
+The Homophily level of given dataset texas-4-classes is 0.02583897113800049 using metric adj_homo
+=== texas-4-classes / den_homo ===
+The Homophily level of given dataset texas-4-classes is 0.48456791043281555 using metric den_homo
+=== texas-4-classes / two_hop_homo ===
+The Homophily level of given dataset texas-4-classes is 0.4963344633579254 using metric two_hop_homo
+=== texas-4-classes / neibh_homo ===
+The Homophily level of given dataset texas-4-classes is 0.6552311778068542 using metric neibh_homo
+=== texas-4-classes / label_info ===
+The Homophily level of given dataset texas-4-classes is 0.19234836101531982 using metric label_info
+=== texas-4-classes / agg_homo_soft ===
+The Homophily level of given dataset texas-4-classes is 0.6939890384674072 using metric agg_homo_soft
+=== texas-4-classes / h_s ===
+The Homophily level of given dataset texas-4-classes is 0.1794177144765854 using metric h_s
+=== texas-4-classes / localsim_cos_homo ===
+The Homophily level of given dataset texas-4-classes is 0.37001582980155945 using metric localsim_cos_homo
+=== texas-4-classes / localsim_euc_homo ===
+The Homophily level of given dataset texas-4-classes is -34.699981689453125 using metric localsim_euc_homo
+=== texas-4-classes / attr_homo ===
+The Homophily level of given dataset texas-4-classes is 8778490.0 using metric attr_homo
+=== texas-4-classes / cls_ctrl_feat_homo ===
+The Homophily level of given dataset texas-4-classes is 0.30022355914115906 using metric cls_ctrl_feat_homo
+=== texas-4-classes / h_f ===
+The Homophily level of given dataset texas-4-classes is 0.0 using metric h_f
+=== cornell / node_homo ===
+The Homophily level of given dataset cornell is 0.11095360666513443 using metric node_homo
+=== cornell / edge_homo ===
+The Homophily level of given dataset cornell is 0.3405698835849762 using metric edge_homo
+=== cornell / class_homo ===
+The Homophily level of given dataset cornell is 0.0382513664662838 using metric class_homo
+=== cornell / adj_homo ===
+The Homophily level of given dataset cornell is 0.0828402042388916 using metric adj_homo
+=== cornell / den_homo ===
+The Homophily level of given dataset cornell is 0.4889124631881714 using metric den_homo
+=== cornell / two_hop_homo ===
+The Homophily level of given dataset cornell is 0.3562084138393402 using metric two_hop_homo
+=== cornell / neibh_homo ===
+The Homophily level of given dataset cornell is 0.5366525053977966 using metric neibh_homo
+=== cornell / label_info ===
+The Homophily level of given dataset cornell is 0.15569722652435303 using metric label_info
+=== cornell / agg_homo_soft ===
+The Homophily level of given dataset cornell is 0.8579235076904297 using metric agg_homo_soft
+=== cornell / h_s ===
+The Homophily level of given dataset cornell is 0.2878209948539734 using metric h_s
+=== cornell / localsim_cos_homo ===
+The Homophily level of given dataset cornell is 0.37887492775917053 using metric localsim_cos_homo
+=== cornell / localsim_euc_homo ===
+The Homophily level of given dataset cornell is -34.261451721191406 using metric localsim_euc_homo
+=== cornell / attr_homo ===
+The Homophily level of given dataset cornell is 8834963.0 using metric attr_homo
+=== cornell / cls_ctrl_feat_homo ===
+The Homophily level of given dataset cornell is 0.40263593196868896 using metric cls_ctrl_feat_homo
+=== cornell / h_f ===
+The Homophily level of given dataset cornell is 0.0 using metric h_f
+=== wisconsin / node_homo ===
+The Homophily level of given dataset wisconsin is 0.15522411465644836 using metric node_homo
+=== wisconsin / edge_homo ===
+The Homophily level of given dataset wisconsin is 0.3570807874202728 using metric edge_homo
+=== wisconsin / class_homo ===
+The Homophily level of given dataset wisconsin is 0.046071723103523254 using metric class_homo
+=== wisconsin / adj_homo ===
+The Homophily level of given dataset wisconsin is 0.08256334811449051 using metric adj_homo
+=== wisconsin / den_homo ===
+The Homophily level of given dataset wisconsin is 0.4935978949069977 using metric den_homo
+=== wisconsin / two_hop_homo ===
+The Homophily level of given dataset wisconsin is 0.39090150594711304 using metric two_hop_homo
+=== wisconsin / neibh_homo ===
+The Homophily level of given dataset wisconsin is 0.5675299763679504 using metric neibh_homo
+=== wisconsin / label_info ===
+The Homophily level of given dataset wisconsin is 0.13109707832336426 using metric label_info
+=== wisconsin / agg_homo_soft ===
+The Homophily level of given dataset wisconsin is 0.768924355506897 using metric agg_homo_soft
+=== wisconsin / h_s ===
+The Homophily level of given dataset wisconsin is 0.2036016881465912 using metric h_s
+=== wisconsin / localsim_cos_homo ===
+The Homophily level of given dataset wisconsin is 0.33918696641921997 using metric localsim_cos_homo
+=== wisconsin / localsim_euc_homo ===
+The Homophily level of given dataset wisconsin is -38.41962432861328 using metric localsim_euc_homo
+=== wisconsin / attr_homo ===
+The Homophily level of given dataset wisconsin is 31361.50390625 using metric attr_homo
+=== wisconsin / cls_ctrl_feat_homo ===
+The Homophily level of given dataset wisconsin is 0.281327486038208 using metric cls_ctrl_feat_homo
+=== wisconsin / h_f ===
+The Homophily level of given dataset wisconsin is 0.0 using metric h_f

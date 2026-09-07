@@ -1,0 +1,2592 @@
+=== cora / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.6734, corresponding test accuracy: 0.6691 (step 16).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.6439, corresponding test accuracy: 0.6913 (step 15).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.7011, corresponding test accuracy: 0.6673 (step 13).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.6661, corresponding test accuracy: 0.7135 (step 15).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.7103, corresponding test accuracy: 0.6932 (step 25).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.7122, corresponding test accuracy: 0.6636 (step 11).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.6974, corresponding test accuracy: 0.7024 (step 28).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.7085, corresponding test accuracy: 0.7227 (step 17).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.6993, corresponding test accuracy: 0.6765 (step 13).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.6937, corresponding test accuracy: 0.6728 (step 17).
+
+Finished 10 runs.
+Val accuracy mean: 0.6906
+Val accuracy std: 0.0223
+Test accuracy mean: 0.6872
+Test accuracy std: 0.0207
+=== cora / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8764, corresponding test accuracy: 0.8651 (step 16).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.8672, corresponding test accuracy: 0.8503 (step 19).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.9041, corresponding test accuracy: 0.8429 (step 19).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.8561, corresponding test accuracy: 0.8762 (step 13).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8653, corresponding test accuracy: 0.8632 (step 21).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8838, corresponding test accuracy: 0.8632 (step 13).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.8819, corresponding test accuracy: 0.8669 (step 13).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8708, corresponding test accuracy: 0.8632 (step 20).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8745, corresponding test accuracy: 0.8521 (step 11).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.8801, corresponding test accuracy: 0.8484 (step 16).
+
+Finished 10 runs.
+Val accuracy mean: 0.8760
+Val accuracy std: 0.0130
+Test accuracy mean: 0.8591
+Test accuracy std: 0.0102
+=== cora / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8745, corresponding test accuracy: 0.8521 (step 36).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.8727, corresponding test accuracy: 0.8688 (step 22).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.8985, corresponding test accuracy: 0.8780 (step 21).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.8635, corresponding test accuracy: 0.8909 (step 28).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8579, corresponding test accuracy: 0.8632 (step 41).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8967, corresponding test accuracy: 0.8725 (step 15).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.8893, corresponding test accuracy: 0.8669 (step 14).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8764, corresponding test accuracy: 0.8762 (step 48).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8782, corresponding test accuracy: 0.8669 (step 18).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.8838, corresponding test accuracy: 0.8466 (step 14).
+
+Finished 10 runs.
+Val accuracy mean: 0.8792
+Val accuracy std: 0.0132
+Test accuracy mean: 0.8682
+Test accuracy std: 0.0127
+=== cora / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8690, corresponding test accuracy: 0.8577 (step 10).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.8745, corresponding test accuracy: 0.8632 (step 11).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.9004, corresponding test accuracy: 0.8688 (step 14).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.8690, corresponding test accuracy: 0.8946 (step 17).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8745, corresponding test accuracy: 0.8743 (step 18).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8930, corresponding test accuracy: 0.8743 (step 15).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.8948, corresponding test accuracy: 0.8651 (step 15).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8856, corresponding test accuracy: 0.8872 (step 13).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8782, corresponding test accuracy: 0.8632 (step 39).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.8856, corresponding test accuracy: 0.8318 (step 8).
+
+Finished 10 runs.
+Val accuracy mean: 0.8825
+Val accuracy std: 0.0111
+Test accuracy mean: 0.8680
+Test accuracy std: 0.0171
+=== citeseer / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.7113, corresponding test accuracy: 0.7113 (step 16).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.7098, corresponding test accuracy: 0.7113 (step 28).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.7278, corresponding test accuracy: 0.6977 (step 35).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.7038, corresponding test accuracy: 0.7083 (step 7).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.7008, corresponding test accuracy: 0.6992 (step 7).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.6932, corresponding test accuracy: 0.7158 (step 8).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.7053, corresponding test accuracy: 0.7068 (step 9).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.7068, corresponding test accuracy: 0.6962 (step 13).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.7188, corresponding test accuracy: 0.7173 (step 8).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.7203, corresponding test accuracy: 0.7143 (step 9).
+
+Finished 10 runs.
+Val accuracy mean: 0.7098
+Val accuracy std: 0.0102
+Test accuracy mean: 0.7078
+Test accuracy std: 0.0077
+=== citeseer / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.7835, corresponding test accuracy: 0.7549 (step 10).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.7654, corresponding test accuracy: 0.7383 (step 14).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.7744, corresponding test accuracy: 0.7519 (step 9).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.7579, corresponding test accuracy: 0.7759 (step 6).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.7594, corresponding test accuracy: 0.7474 (step 5).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.7414, corresponding test accuracy: 0.7759 (step 9).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.7609, corresponding test accuracy: 0.7429 (step 6).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.7474, corresponding test accuracy: 0.7654 (step 7).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.7564, corresponding test accuracy: 0.7820 (step 7).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.7729, corresponding test accuracy: 0.7609 (step 8).
+
+Finished 10 runs.
+Val accuracy mean: 0.7620
+Val accuracy std: 0.0127
+Test accuracy mean: 0.7595
+Test accuracy std: 0.0150
+=== citeseer / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.7865, corresponding test accuracy: 0.7654 (step 7).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.7744, corresponding test accuracy: 0.7669 (step 12).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.7880, corresponding test accuracy: 0.7459 (step 10).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.7579, corresponding test accuracy: 0.7850 (step 8).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.7699, corresponding test accuracy: 0.7654 (step 6).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.7338, corresponding test accuracy: 0.7549 (step 12).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.7774, corresponding test accuracy: 0.7504 (step 8).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.7564, corresponding test accuracy: 0.7639 (step 9).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.7639, corresponding test accuracy: 0.7729 (step 8).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.7805, corresponding test accuracy: 0.7714 (step 19).
+
+Finished 10 runs.
+Val accuracy mean: 0.7689
+Val accuracy std: 0.0165
+Test accuracy mean: 0.7642
+Test accuracy std: 0.0115
+=== citeseer / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.7865, corresponding test accuracy: 0.7639 (step 6).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.7714, corresponding test accuracy: 0.7444 (step 15).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.7669, corresponding test accuracy: 0.7338 (step 21).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.7594, corresponding test accuracy: 0.7850 (step 5).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.7654, corresponding test accuracy: 0.7639 (step 9).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.7233, corresponding test accuracy: 0.7579 (step 8).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.7714, corresponding test accuracy: 0.7504 (step 7).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.7684, corresponding test accuracy: 0.7534 (step 6).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.7624, corresponding test accuracy: 0.7654 (step 9).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.7759, corresponding test accuracy: 0.7850 (step 7).
+
+Finished 10 runs.
+Val accuracy mean: 0.7651
+Val accuracy std: 0.0165
+Test accuracy mean: 0.7603
+Test accuracy std: 0.0162
+=== pubmed / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8760, corresponding test accuracy: 0.8620 (step 123).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.8719, corresponding test accuracy: 0.8613 (step 162).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.8790, corresponding test accuracy: 0.8732 (step 78).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.8696, corresponding test accuracy: 0.8691 (step 118).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8681, corresponding test accuracy: 0.8722 (step 106).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8745, corresponding test accuracy: 0.8666 (step 89).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.8767, corresponding test accuracy: 0.8704 (step 101).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8729, corresponding test accuracy: 0.8671 (step 60).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8648, corresponding test accuracy: 0.8686 (step 75).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.8783, corresponding test accuracy: 0.8684 (step 108).
+
+Finished 10 runs.
+Val accuracy mean: 0.8732
+Val accuracy std: 0.0046
+Test accuracy mean: 0.8679
+Test accuracy std: 0.0039
+=== pubmed / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8871, corresponding test accuracy: 0.8844 (step 40).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.8907, corresponding test accuracy: 0.8892 (step 36).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.8920, corresponding test accuracy: 0.8882 (step 61).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.8836, corresponding test accuracy: 0.8859 (step 54).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8851, corresponding test accuracy: 0.8927 (step 74).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8920, corresponding test accuracy: 0.8854 (step 51).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.8932, corresponding test accuracy: 0.8864 (step 47).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8912, corresponding test accuracy: 0.8833 (step 49).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8836, corresponding test accuracy: 0.8887 (step 44).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.8975, corresponding test accuracy: 0.8864 (step 94).
+
+Finished 10 runs.
+Val accuracy mean: 0.8896
+Val accuracy std: 0.0046
+Test accuracy mean: 0.8870
+Test accuracy std: 0.0027
+=== pubmed / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8879, corresponding test accuracy: 0.8856 (step 76).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.8922, corresponding test accuracy: 0.8874 (step 76).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.8948, corresponding test accuracy: 0.8897 (step 105).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.8823, corresponding test accuracy: 0.8856 (step 51).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8861, corresponding test accuracy: 0.8907 (step 117).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8953, corresponding test accuracy: 0.8884 (step 122).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.8937, corresponding test accuracy: 0.8854 (step 98).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8958, corresponding test accuracy: 0.8915 (step 134).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8876, corresponding test accuracy: 0.8988 (step 128).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.8970, corresponding test accuracy: 0.8920 (step 87).
+
+Finished 10 runs.
+Val accuracy mean: 0.8913
+Val accuracy std: 0.0049
+Test accuracy mean: 0.8895
+Test accuracy std: 0.0041
+=== pubmed / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8808, corresponding test accuracy: 0.8856 (step 61).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.8940, corresponding test accuracy: 0.8927 (step 95).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.8874, corresponding test accuracy: 0.8864 (step 127).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.8833, corresponding test accuracy: 0.8778 (step 101).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8823, corresponding test accuracy: 0.8851 (step 118).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8904, corresponding test accuracy: 0.8859 (step 49).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.8907, corresponding test accuracy: 0.8818 (step 43).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8912, corresponding test accuracy: 0.8871 (step 38).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8844, corresponding test accuracy: 0.8879 (step 60).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.8955, corresponding test accuracy: 0.8993 (step 47).
+
+Finished 10 runs.
+Val accuracy mean: 0.8880
+Val accuracy std: 0.0051
+Test accuracy mean: 0.8870
+Test accuracy std: 0.0058
+=== amazon-photo / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.9170, corresponding test accuracy: 0.9019 (step 34).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.9157, corresponding test accuracy: 0.8954 (step 45).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.9105, corresponding test accuracy: 0.9143 (step 35).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.9124, corresponding test accuracy: 0.9032 (step 38).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.9078, corresponding test accuracy: 0.9065 (step 29).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.9065, corresponding test accuracy: 0.8986 (step 32).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.9118, corresponding test accuracy: 0.9111 (step 34).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.9144, corresponding test accuracy: 0.9117 (step 35).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.9059, corresponding test accuracy: 0.9032 (step 22).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.9007, corresponding test accuracy: 0.8980 (step 62).
+
+Finished 10 runs.
+Val accuracy mean: 0.9103
+Val accuracy std: 0.0051
+Test accuracy mean: 0.9044
+Test accuracy std: 0.0064
+=== amazon-photo / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.9582, corresponding test accuracy: 0.9588 (step 73).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.9523, corresponding test accuracy: 0.9477 (step 90).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.9549, corresponding test accuracy: 0.9627 (step 45).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.9608, corresponding test accuracy: 0.9451 (step 119).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.9523, corresponding test accuracy: 0.9536 (step 76).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.9516, corresponding test accuracy: 0.9581 (step 85).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.9516, corresponding test accuracy: 0.9536 (step 111).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.9595, corresponding test accuracy: 0.9496 (step 90).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.9471, corresponding test accuracy: 0.9581 (step 46).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.9510, corresponding test accuracy: 0.9516 (step 149).
+
+Finished 10 runs.
+Val accuracy mean: 0.9539
+Val accuracy std: 0.0043
+Test accuracy mean: 0.9539
+Test accuracy std: 0.0056
+=== amazon-photo / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.9608, corresponding test accuracy: 0.9503 (step 33).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.9523, corresponding test accuracy: 0.9542 (step 32).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.9588, corresponding test accuracy: 0.9575 (step 60).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.9627, corresponding test accuracy: 0.9483 (step 41).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.9471, corresponding test accuracy: 0.9509 (step 24).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.9556, corresponding test accuracy: 0.9575 (step 36).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.9490, corresponding test accuracy: 0.9562 (step 82).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.9641, corresponding test accuracy: 0.9562 (step 37).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.9497, corresponding test accuracy: 0.9601 (step 36).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.9556, corresponding test accuracy: 0.9523 (step 52).
+
+Finished 10 runs.
+Val accuracy mean: 0.9556
+Val accuracy std: 0.0060
+Test accuracy mean: 0.9543
+Test accuracy std: 0.0038
+=== amazon-photo / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.9614, corresponding test accuracy: 0.9549 (step 44).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.9569, corresponding test accuracy: 0.9516 (step 49).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.9549, corresponding test accuracy: 0.9555 (step 52).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.9641, corresponding test accuracy: 0.9536 (step 65).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.9529, corresponding test accuracy: 0.9562 (step 46).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.9562, corresponding test accuracy: 0.9575 (step 46).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.9497, corresponding test accuracy: 0.9562 (step 68).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.9627, corresponding test accuracy: 0.9536 (step 30).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.9523, corresponding test accuracy: 0.9634 (step 48).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.9516, corresponding test accuracy: 0.9523 (step 30).
+
+Finished 10 runs.
+Val accuracy mean: 0.9563
+Val accuracy std: 0.0050
+Test accuracy mean: 0.9555
+Test accuracy std: 0.0033
+=== amazon-computer / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8498, corresponding test accuracy: 0.8422 (step 53).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.8396, corresponding test accuracy: 0.8295 (step 31).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.8535, corresponding test accuracy: 0.8433 (step 100).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.8389, corresponding test accuracy: 0.8491 (step 95).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8440, corresponding test accuracy: 0.8444 (step 85).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8404, corresponding test accuracy: 0.8429 (step 32).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.8400, corresponding test accuracy: 0.8382 (step 59).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8429, corresponding test accuracy: 0.8309 (step 136).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8469, corresponding test accuracy: 0.8255 (step 35).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.8516, corresponding test accuracy: 0.8233 (step 85).
+
+Finished 10 runs.
+Val accuracy mean: 0.8448
+Val accuracy std: 0.0054
+Test accuracy mean: 0.8369
+Test accuracy std: 0.0089
+=== amazon-computer / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.9164, corresponding test accuracy: 0.9240 (step 49).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.9149, corresponding test accuracy: 0.9142 (step 34).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.9269, corresponding test accuracy: 0.9058 (step 64).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.9138, corresponding test accuracy: 0.9160 (step 64).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.9164, corresponding test accuracy: 0.9211 (step 52).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.9167, corresponding test accuracy: 0.9185 (step 62).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.9240, corresponding test accuracy: 0.9120 (step 62).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.9218, corresponding test accuracy: 0.9258 (step 45).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.9222, corresponding test accuracy: 0.9040 (step 53).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.9240, corresponding test accuracy: 0.9135 (step 60).
+
+Finished 10 runs.
+Val accuracy mean: 0.9197
+Val accuracy std: 0.0046
+Test accuracy mean: 0.9155
+Test accuracy std: 0.0072
+=== amazon-computer / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.9116, corresponding test accuracy: 0.9175 (step 47).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.9145, corresponding test accuracy: 0.9044 (step 44).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.9215, corresponding test accuracy: 0.9055 (step 44).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.9047, corresponding test accuracy: 0.9105 (step 46).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.9102, corresponding test accuracy: 0.9142 (step 39).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.9062, corresponding test accuracy: 0.9073 (step 36).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.9145, corresponding test accuracy: 0.9051 (step 59).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.9149, corresponding test accuracy: 0.9138 (step 51).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.9124, corresponding test accuracy: 0.9025 (step 46).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.9153, corresponding test accuracy: 0.9076 (step 66).
+
+Finished 10 runs.
+Val accuracy mean: 0.9126
+Val accuracy std: 0.0048
+Test accuracy mean: 0.9088
+Test accuracy std: 0.0049
+=== amazon-computer / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.9196, corresponding test accuracy: 0.9193 (step 46).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.9251, corresponding test accuracy: 0.9080 (step 71).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.9298, corresponding test accuracy: 0.9145 (step 39).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.9120, corresponding test accuracy: 0.9178 (step 43).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.9160, corresponding test accuracy: 0.9196 (step 55).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.9145, corresponding test accuracy: 0.9189 (step 51).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.9265, corresponding test accuracy: 0.9142 (step 55).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.9196, corresponding test accuracy: 0.9273 (step 48).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.9262, corresponding test accuracy: 0.9116 (step 44).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.9225, corresponding test accuracy: 0.9171 (step 72).
+
+Finished 10 runs.
+Val accuracy mean: 0.9212
+Val accuracy std: 0.0058
+Test accuracy mean: 0.9168
+Test accuracy std: 0.0052
+=== coauthor-cs / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.9446, corresponding test accuracy: 0.9435 (step 13).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.9449, corresponding test accuracy: 0.9411 (step 28).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.9446, corresponding test accuracy: 0.9454 (step 24).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.9436, corresponding test accuracy: 0.9468 (step 29).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.9460, corresponding test accuracy: 0.9422 (step 32).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.9400, corresponding test accuracy: 0.9471 (step 16).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.9490, corresponding test accuracy: 0.9452 (step 22).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.9446, corresponding test accuracy: 0.9373 (step 32).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.9430, corresponding test accuracy: 0.9414 (step 26).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.9408, corresponding test accuracy: 0.9449 (step 26).
+
+Finished 10 runs.
+Val accuracy mean: 0.9441
+Val accuracy std: 0.0025
+Test accuracy mean: 0.9435
+Test accuracy std: 0.0030
+=== coauthor-cs / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.9591, corresponding test accuracy: 0.9550 (step 30).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.9545, corresponding test accuracy: 0.9596 (step 29).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.9585, corresponding test accuracy: 0.9544 (step 30).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.9572, corresponding test accuracy: 0.9585 (step 19).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.9555, corresponding test accuracy: 0.9572 (step 28).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.9569, corresponding test accuracy: 0.9574 (step 19).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.9626, corresponding test accuracy: 0.9517 (step 18).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.9545, corresponding test accuracy: 0.9531 (step 46).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.9561, corresponding test accuracy: 0.9572 (step 29).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.9542, corresponding test accuracy: 0.9566 (step 13).
+
+Finished 10 runs.
+Val accuracy mean: 0.9569
+Val accuracy std: 0.0026
+Test accuracy mean: 0.9561
+Test accuracy std: 0.0025
+=== coauthor-cs / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.9569, corresponding test accuracy: 0.9569 (step 28).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.9569, corresponding test accuracy: 0.9577 (step 63).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.9569, corresponding test accuracy: 0.9588 (step 25).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.9555, corresponding test accuracy: 0.9550 (step 24).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.9566, corresponding test accuracy: 0.9550 (step 15).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.9550, corresponding test accuracy: 0.9558 (step 15).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.9591, corresponding test accuracy: 0.9523 (step 20).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.9525, corresponding test accuracy: 0.9487 (step 38).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.9525, corresponding test accuracy: 0.9542 (step 36).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.9534, corresponding test accuracy: 0.9566 (step 15).
+
+Finished 10 runs.
+Val accuracy mean: 0.9555
+Val accuracy std: 0.0022
+Test accuracy mean: 0.9551
+Test accuracy std: 0.0029
+=== coauthor-cs / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.9594, corresponding test accuracy: 0.9558 (step 39).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.9566, corresponding test accuracy: 0.9602 (step 43).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.9594, corresponding test accuracy: 0.9583 (step 23).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.9553, corresponding test accuracy: 0.9553 (step 23).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.9569, corresponding test accuracy: 0.9528 (step 11).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.9561, corresponding test accuracy: 0.9561 (step 16).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.9575, corresponding test accuracy: 0.9498 (step 11).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.9539, corresponding test accuracy: 0.9531 (step 33).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.9539, corresponding test accuracy: 0.9550 (step 32).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.9550, corresponding test accuracy: 0.9550 (step 15).
+
+Finished 10 runs.
+Val accuracy mean: 0.9564
+Val accuracy std: 0.0020
+Test accuracy mean: 0.9551
+Test accuracy std: 0.0029
+=== wikics / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8171, corresponding test accuracy: 0.8034 (step 83).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.8128, corresponding test accuracy: 0.8128 (step 113).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.8150, corresponding test accuracy: 0.8231 (step 122).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.8244, corresponding test accuracy: 0.8111 (step 142).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8205, corresponding test accuracy: 0.8068 (step 111).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8064, corresponding test accuracy: 0.8085 (step 155).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.8158, corresponding test accuracy: 0.8081 (step 73).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8244, corresponding test accuracy: 0.8064 (step 130).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8201, corresponding test accuracy: 0.8094 (step 85).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.8278, corresponding test accuracy: 0.8218 (step 125).
+
+Finished 10 runs.
+Val accuracy mean: 0.8184
+Val accuracy std: 0.0063
+Test accuracy mean: 0.8112
+Test accuracy std: 0.0065
+=== wikics / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8581, corresponding test accuracy: 0.8479 (step 95).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.8538, corresponding test accuracy: 0.8466 (step 92).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.8534, corresponding test accuracy: 0.8500 (step 87).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.8538, corresponding test accuracy: 0.8504 (step 134).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8585, corresponding test accuracy: 0.8538 (step 136).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8568, corresponding test accuracy: 0.8534 (step 76).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.8547, corresponding test accuracy: 0.8568 (step 93).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8504, corresponding test accuracy: 0.8419 (step 135).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8560, corresponding test accuracy: 0.8513 (step 74).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.8654, corresponding test accuracy: 0.8509 (step 117).
+
+Finished 10 runs.
+Val accuracy mean: 0.8561
+Val accuracy std: 0.0041
+Test accuracy mean: 0.8503
+Test accuracy std: 0.0042
+=== wikics / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8637, corresponding test accuracy: 0.8581 (step 79).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.8628, corresponding test accuracy: 0.8538 (step 119).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.8632, corresponding test accuracy: 0.8628 (step 84).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.8603, corresponding test accuracy: 0.8538 (step 86).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8632, corresponding test accuracy: 0.8466 (step 99).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8662, corresponding test accuracy: 0.8611 (step 80).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.8603, corresponding test accuracy: 0.8624 (step 65).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8684, corresponding test accuracy: 0.8543 (step 95).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8607, corresponding test accuracy: 0.8594 (step 106).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.8654, corresponding test accuracy: 0.8526 (step 87).
+
+Finished 10 runs.
+Val accuracy mean: 0.8634
+Val accuracy std: 0.0027
+Test accuracy mean: 0.8565
+Test accuracy std: 0.0052
+=== wikics / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8756, corresponding test accuracy: 0.8564 (step 123).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.8564, corresponding test accuracy: 0.8543 (step 88).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.8675, corresponding test accuracy: 0.8598 (step 75).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.8598, corresponding test accuracy: 0.8530 (step 84).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8637, corresponding test accuracy: 0.8568 (step 103).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8577, corresponding test accuracy: 0.8581 (step 64).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.8590, corresponding test accuracy: 0.8573 (step 127).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8620, corresponding test accuracy: 0.8560 (step 85).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8603, corresponding test accuracy: 0.8598 (step 162).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.8607, corresponding test accuracy: 0.8543 (step 74).
+
+Finished 10 runs.
+Val accuracy mean: 0.8623
+Val accuracy std: 0.0056
+Test accuracy mean: 0.8566
+Test accuracy std: 0.0023
+=== roman-empire / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.6484, corresponding test accuracy: 0.6479 (step 60).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.6590, corresponding test accuracy: 0.6587 (step 63).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.6448, corresponding test accuracy: 0.6458 (step 63).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.6410, corresponding test accuracy: 0.6530 (step 64).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.6452, corresponding test accuracy: 0.6477 (step 98).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.6492, corresponding test accuracy: 0.6460 (step 72).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.6489, corresponding test accuracy: 0.6445 (step 52).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.6448, corresponding test accuracy: 0.6509 (step 89).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.6482, corresponding test accuracy: 0.6534 (step 58).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.6484, corresponding test accuracy: 0.6303 (step 102).
+
+Finished 10 runs.
+Val accuracy mean: 0.6478
+Val accuracy std: 0.0047
+Test accuracy mean: 0.6478
+Test accuracy std: 0.0075
+=== roman-empire / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.7774, corresponding test accuracy: 0.7628 (step 107).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.7811, corresponding test accuracy: 0.7769 (step 95).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.7700, corresponding test accuracy: 0.7720 (step 87).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.7790, corresponding test accuracy: 0.7706 (step 136).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.7749, corresponding test accuracy: 0.7681 (step 109).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.7680, corresponding test accuracy: 0.7819 (step 125).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.7691, corresponding test accuracy: 0.7845 (step 134).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.7698, corresponding test accuracy: 0.7707 (step 92).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.7756, corresponding test accuracy: 0.7646 (step 122).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.7716, corresponding test accuracy: 0.7674 (step 116).
+
+Finished 10 runs.
+Val accuracy mean: 0.7737
+Val accuracy std: 0.0046
+Test accuracy mean: 0.7719
+Test accuracy std: 0.0071
+=== roman-empire / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8365, corresponding test accuracy: 0.8343 (step 256).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.8431, corresponding test accuracy: 0.8429 (step 243).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.8320, corresponding test accuracy: 0.8315 (step 244).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.8392, corresponding test accuracy: 0.8366 (step 270).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8387, corresponding test accuracy: 0.8318 (step 230).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8415, corresponding test accuracy: 0.8482 (step 273).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.8353, corresponding test accuracy: 0.8392 (step 254).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8342, corresponding test accuracy: 0.8336 (step 268).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8372, corresponding test accuracy: 0.8311 (step 278).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.8406, corresponding test accuracy: 0.8297 (step 283).
+
+Finished 10 runs.
+Val accuracy mean: 0.8378
+Val accuracy std: 0.0034
+Test accuracy mean: 0.8359
+Test accuracy std: 0.0060
+=== roman-empire / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8289, corresponding test accuracy: 0.8159 (step 154).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.8420, corresponding test accuracy: 0.8325 (step 315).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.8378, corresponding test accuracy: 0.8401 (step 334).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.8425, corresponding test accuracy: 0.8323 (step 332).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8395, corresponding test accuracy: 0.8258 (step 345).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8387, corresponding test accuracy: 0.8383 (step 372).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.8357, corresponding test accuracy: 0.8405 (step 329).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8376, corresponding test accuracy: 0.8322 (step 340).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8388, corresponding test accuracy: 0.8309 (step 343).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.8380, corresponding test accuracy: 0.8299 (step 348).
+
+Finished 10 runs.
+Val accuracy mean: 0.8380
+Val accuracy std: 0.0038
+Test accuracy mean: 0.8318
+Test accuracy std: 0.0073
+=== amazon-ratings / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.4428, corresponding test accuracy: 0.4446 (step 196).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.4501, corresponding test accuracy: 0.4468 (step 215).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.4516, corresponding test accuracy: 0.4454 (step 255).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.4499, corresponding test accuracy: 0.4467 (step 286).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.4642, corresponding test accuracy: 0.4530 (step 375).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.4669, corresponding test accuracy: 0.4493 (step 372).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.4679, corresponding test accuracy: 0.4676 (step 352).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.4540, corresponding test accuracy: 0.4526 (step 381).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.4493, corresponding test accuracy: 0.4488 (step 339).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.4470, corresponding test accuracy: 0.4633 (step 392).
+
+Finished 10 runs.
+Val accuracy mean: 0.4544
+Val accuracy std: 0.0088
+Test accuracy mean: 0.4518
+Test accuracy std: 0.0078
+=== amazon-ratings / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.5061, corresponding test accuracy: 0.4922 (step 208).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.5042, corresponding test accuracy: 0.5016 (step 234).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.5029, corresponding test accuracy: 0.5040 (step 249).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.5001, corresponding test accuracy: 0.4960 (step 196).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.5069, corresponding test accuracy: 0.4976 (step 207).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.5100, corresponding test accuracy: 0.4996 (step 189).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.5122, corresponding test accuracy: 0.5011 (step 221).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.4983, corresponding test accuracy: 0.4891 (step 206).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.5058, corresponding test accuracy: 0.4993 (step 233).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.5014, corresponding test accuracy: 0.4929 (step 261).
+
+Finished 10 runs.
+Val accuracy mean: 0.5048
+Val accuracy std: 0.0043
+Test accuracy mean: 0.4973
+Test accuracy std: 0.0047
+=== amazon-ratings / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.5229, corresponding test accuracy: 0.5303 (step 190).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.5278, corresponding test accuracy: 0.5225 (step 269).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.5360, corresponding test accuracy: 0.5309 (step 206).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.5257, corresponding test accuracy: 0.5130 (step 213).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.5309, corresponding test accuracy: 0.5278 (step 229).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.5257, corresponding test accuracy: 0.5226 (step 245).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.5406, corresponding test accuracy: 0.5326 (step 279).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.5311, corresponding test accuracy: 0.5339 (step 245).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.5285, corresponding test accuracy: 0.5182 (step 320).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.5399, corresponding test accuracy: 0.5314 (step 279).
+
+Finished 10 runs.
+Val accuracy mean: 0.5309
+Val accuracy std: 0.0061
+Test accuracy mean: 0.5263
+Test accuracy std: 0.0069
+=== amazon-ratings / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.4991, corresponding test accuracy: 0.4988 (step 115).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.5195, corresponding test accuracy: 0.5202 (step 258).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.5172, corresponding test accuracy: 0.5194 (step 264).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.5282, corresponding test accuracy: 0.5229 (step 322).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.5272, corresponding test accuracy: 0.5167 (step 355).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.5298, corresponding test accuracy: 0.5259 (step 279).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.5226, corresponding test accuracy: 0.5153 (step 318).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.5220, corresponding test accuracy: 0.5151 (step 312).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.5185, corresponding test accuracy: 0.5241 (step 294).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.5156, corresponding test accuracy: 0.5073 (step 274).
+
+Finished 10 runs.
+Val accuracy mean: 0.5200
+Val accuracy std: 0.0088
+Test accuracy mean: 0.5166
+Test accuracy std: 0.0082
+=== minesweeper / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val ROC AUC: 0.5204, corresponding test ROC AUC: 0.5197 (step 5).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val ROC AUC: 0.5131, corresponding test ROC AUC: 0.5025 (step 10).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val ROC AUC: 0.5150, corresponding test ROC AUC: 0.5191 (step 23).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val ROC AUC: 0.5298, corresponding test ROC AUC: 0.5253 (step 3).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val ROC AUC: 0.5233, corresponding test ROC AUC: 0.4970 (step 18).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val ROC AUC: 0.5335, corresponding test ROC AUC: 0.4952 (step 44).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val ROC AUC: 0.5245, corresponding test ROC AUC: 0.4970 (step 39).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val ROC AUC: 0.5200, corresponding test ROC AUC: 0.5195 (step 17).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val ROC AUC: 0.5342, corresponding test ROC AUC: 0.4887 (step 31).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val ROC AUC: 0.5242, corresponding test ROC AUC: 0.5083 (step 4).
+
+Finished 10 runs.
+Val ROC AUC mean: 0.5238
+Val ROC AUC std: 0.0071
+Test ROC AUC mean: 0.5072
+Test ROC AUC std: 0.0129
+=== minesweeper / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val ROC AUC: 0.8828, corresponding test ROC AUC: 0.8960 (step 100).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val ROC AUC: 0.9032, corresponding test ROC AUC: 0.8938 (step 145).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val ROC AUC: 0.8928, corresponding test ROC AUC: 0.8968 (step 100).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val ROC AUC: 0.8818, corresponding test ROC AUC: 0.8905 (step 186).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val ROC AUC: 0.8918, corresponding test ROC AUC: 0.8971 (step 124).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val ROC AUC: 0.8932, corresponding test ROC AUC: 0.9056 (step 176).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val ROC AUC: 0.9137, corresponding test ROC AUC: 0.8884 (step 112).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val ROC AUC: 0.8917, corresponding test ROC AUC: 0.8980 (step 123).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val ROC AUC: 0.8984, corresponding test ROC AUC: 0.8977 (step 55).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val ROC AUC: 0.8934, corresponding test ROC AUC: 0.9067 (step 105).
+
+Finished 10 runs.
+Val ROC AUC mean: 0.8943
+Val ROC AUC std: 0.0093
+Test ROC AUC mean: 0.8970
+Test ROC AUC std: 0.0057
+=== minesweeper / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val ROC AUC: 0.8910, corresponding test ROC AUC: 0.9020 (step 81).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val ROC AUC: 0.9119, corresponding test ROC AUC: 0.8997 (step 144).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val ROC AUC: 0.9015, corresponding test ROC AUC: 0.9067 (step 99).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val ROC AUC: 0.8989, corresponding test ROC AUC: 0.8970 (step 83).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val ROC AUC: 0.9070, corresponding test ROC AUC: 0.9004 (step 141).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val ROC AUC: 0.8965, corresponding test ROC AUC: 0.9141 (step 162).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val ROC AUC: 0.9219, corresponding test ROC AUC: 0.8977 (step 135).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val ROC AUC: 0.8994, corresponding test ROC AUC: 0.9046 (step 148).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val ROC AUC: 0.9064, corresponding test ROC AUC: 0.9086 (step 159).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val ROC AUC: 0.8957, corresponding test ROC AUC: 0.9141 (step 61).
+
+Finished 10 runs.
+Val ROC AUC mean: 0.9030
+Val ROC AUC std: 0.0090
+Test ROC AUC mean: 0.9045
+Test ROC AUC std: 0.0063
+=== minesweeper / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val ROC AUC: 0.8863, corresponding test ROC AUC: 0.8957 (step 123).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val ROC AUC: 0.9012, corresponding test ROC AUC: 0.8927 (step 57).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val ROC AUC: 0.8911, corresponding test ROC AUC: 0.8988 (step 34).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val ROC AUC: 0.8898, corresponding test ROC AUC: 0.8932 (step 58).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val ROC AUC: 0.8994, corresponding test ROC AUC: 0.8952 (step 65).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val ROC AUC: 0.8963, corresponding test ROC AUC: 0.9054 (step 42).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val ROC AUC: 0.9185, corresponding test ROC AUC: 0.8960 (step 78).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val ROC AUC: 0.8931, corresponding test ROC AUC: 0.8962 (step 62).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val ROC AUC: 0.8977, corresponding test ROC AUC: 0.8981 (step 87).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val ROC AUC: 0.8922, corresponding test ROC AUC: 0.9104 (step 69).
+
+Finished 10 runs.
+Val ROC AUC mean: 0.8965
+Val ROC AUC std: 0.0090
+Test ROC AUC mean: 0.8982
+Test ROC AUC std: 0.0056
+=== tolokers / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val ROC AUC: 0.7303, corresponding test ROC AUC: 0.7182 (step 22).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val ROC AUC: 0.7542, corresponding test ROC AUC: 0.7313 (step 32).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val ROC AUC: 0.7283, corresponding test ROC AUC: 0.7350 (step 23).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val ROC AUC: 0.7263, corresponding test ROC AUC: 0.7381 (step 73).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val ROC AUC: 0.7381, corresponding test ROC AUC: 0.7379 (step 62).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val ROC AUC: 0.7404, corresponding test ROC AUC: 0.7292 (step 65).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val ROC AUC: 0.7364, corresponding test ROC AUC: 0.7359 (step 59).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val ROC AUC: 0.7510, corresponding test ROC AUC: 0.7082 (step 23).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val ROC AUC: 0.7322, corresponding test ROC AUC: 0.7243 (step 69).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val ROC AUC: 0.7302, corresponding test ROC AUC: 0.7309 (step 36).
+
+Finished 10 runs.
+Val ROC AUC mean: 0.7368
+Val ROC AUC std: 0.0095
+Test ROC AUC mean: 0.7289
+Test ROC AUC std: 0.0096
+=== tolokers / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val ROC AUC: 0.8462, corresponding test ROC AUC: 0.8369 (step 106).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val ROC AUC: 0.8395, corresponding test ROC AUC: 0.8394 (step 80).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val ROC AUC: 0.8338, corresponding test ROC AUC: 0.8431 (step 120).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val ROC AUC: 0.8283, corresponding test ROC AUC: 0.8389 (step 142).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val ROC AUC: 0.8160, corresponding test ROC AUC: 0.8429 (step 82).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val ROC AUC: 0.8446, corresponding test ROC AUC: 0.8235 (step 70).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val ROC AUC: 0.8345, corresponding test ROC AUC: 0.8329 (step 94).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val ROC AUC: 0.8364, corresponding test ROC AUC: 0.8247 (step 72).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val ROC AUC: 0.8299, corresponding test ROC AUC: 0.8365 (step 103).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val ROC AUC: 0.8264, corresponding test ROC AUC: 0.8333 (step 134).
+
+Finished 10 runs.
+Val ROC AUC mean: 0.8336
+Val ROC AUC std: 0.0090
+Test ROC AUC mean: 0.8352
+Test ROC AUC std: 0.0068
+=== tolokers / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val ROC AUC: 0.8286, corresponding test ROC AUC: 0.8241 (step 99).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val ROC AUC: 0.8298, corresponding test ROC AUC: 0.8234 (step 143).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val ROC AUC: 0.8101, corresponding test ROC AUC: 0.8303 (step 124).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val ROC AUC: 0.8292, corresponding test ROC AUC: 0.8315 (step 152).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val ROC AUC: 0.8277, corresponding test ROC AUC: 0.8319 (step 158).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val ROC AUC: 0.8342, corresponding test ROC AUC: 0.8201 (step 120).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val ROC AUC: 0.8284, corresponding test ROC AUC: 0.8255 (step 148).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val ROC AUC: 0.8317, corresponding test ROC AUC: 0.8261 (step 131).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val ROC AUC: 0.8254, corresponding test ROC AUC: 0.8264 (step 145).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val ROC AUC: 0.8274, corresponding test ROC AUC: 0.8278 (step 143).
+
+Finished 10 runs.
+Val ROC AUC mean: 0.8273
+Val ROC AUC std: 0.0065
+Test ROC AUC mean: 0.8267
+Test ROC AUC std: 0.0038
+=== tolokers / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val ROC AUC: 0.8380, corresponding test ROC AUC: 0.8313 (step 108).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val ROC AUC: 0.8390, corresponding test ROC AUC: 0.8383 (step 118).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val ROC AUC: 0.8163, corresponding test ROC AUC: 0.8387 (step 90).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val ROC AUC: 0.8266, corresponding test ROC AUC: 0.8440 (step 109).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val ROC AUC: 0.8284, corresponding test ROC AUC: 0.8431 (step 127).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val ROC AUC: 0.8492, corresponding test ROC AUC: 0.8279 (step 151).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val ROC AUC: 0.8430, corresponding test ROC AUC: 0.8367 (step 179).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val ROC AUC: 0.8498, corresponding test ROC AUC: 0.8337 (step 95).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val ROC AUC: 0.8350, corresponding test ROC AUC: 0.8396 (step 106).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val ROC AUC: 0.8262, corresponding test ROC AUC: 0.8403 (step 110).
+
+Finished 10 runs.
+Val ROC AUC mean: 0.8351
+Val ROC AUC std: 0.0108
+Test ROC AUC mean: 0.8374
+Test ROC AUC std: 0.0051
+=== questions / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val ROC AUC: 0.7133, corresponding test ROC AUC: 0.7115 (step 50).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val ROC AUC: 0.7301, corresponding test ROC AUC: 0.7199 (step 45).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val ROC AUC: 0.7224, corresponding test ROC AUC: 0.7052 (step 65).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val ROC AUC: 0.7003, corresponding test ROC AUC: 0.7042 (step 45).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val ROC AUC: 0.6932, corresponding test ROC AUC: 0.7282 (step 62).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val ROC AUC: 0.7171, corresponding test ROC AUC: 0.7048 (step 60).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val ROC AUC: 0.7204, corresponding test ROC AUC: 0.7055 (step 46).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val ROC AUC: 0.7280, corresponding test ROC AUC: 0.7155 (step 86).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val ROC AUC: 0.7330, corresponding test ROC AUC: 0.7137 (step 62).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val ROC AUC: 0.7287, corresponding test ROC AUC: 0.7169 (step 63).
+
+Finished 10 runs.
+Val ROC AUC mean: 0.7186
+Val ROC AUC std: 0.0132
+Test ROC AUC mean: 0.7125
+Test ROC AUC std: 0.0079
+=== questions / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val ROC AUC: 0.7596, corresponding test ROC AUC: 0.7476 (step 86).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val ROC AUC: 0.7746, corresponding test ROC AUC: 0.7745 (step 114).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val ROC AUC: 0.7705, corresponding test ROC AUC: 0.7497 (step 81).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val ROC AUC: 0.7418, corresponding test ROC AUC: 0.7589 (step 67).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val ROC AUC: 0.7690, corresponding test ROC AUC: 0.7605 (step 78).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val ROC AUC: 0.7547, corresponding test ROC AUC: 0.7464 (step 77).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val ROC AUC: 0.7667, corresponding test ROC AUC: 0.7618 (step 82).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val ROC AUC: 0.7621, corresponding test ROC AUC: 0.7662 (step 82).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val ROC AUC: 0.7462, corresponding test ROC AUC: 0.7459 (step 102).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val ROC AUC: 0.7667, corresponding test ROC AUC: 0.7665 (step 79).
+
+Finished 10 runs.
+Val ROC AUC mean: 0.7612
+Val ROC AUC std: 0.0107
+Test ROC AUC mean: 0.7578
+Test ROC AUC std: 0.0100
+=== questions / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val ROC AUC: 0.7629, corresponding test ROC AUC: 0.7616 (step 38).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val ROC AUC: 0.7747, corresponding test ROC AUC: 0.7739 (step 47).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val ROC AUC: 0.7658, corresponding test ROC AUC: 0.7590 (step 43).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val ROC AUC: 0.7642, corresponding test ROC AUC: 0.7584 (step 55).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val ROC AUC: 0.7540, corresponding test ROC AUC: 0.7776 (step 42).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val ROC AUC: 0.7648, corresponding test ROC AUC: 0.7596 (step 44).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val ROC AUC: 0.7663, corresponding test ROC AUC: 0.7483 (step 40).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val ROC AUC: 0.7684, corresponding test ROC AUC: 0.7498 (step 24).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val ROC AUC: 0.7605, corresponding test ROC AUC: 0.7745 (step 43).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val ROC AUC: 0.7711, corresponding test ROC AUC: 0.7699 (step 59).
+
+Finished 10 runs.
+Val ROC AUC mean: 0.7653
+Val ROC AUC std: 0.0057
+Test ROC AUC mean: 0.7633
+Test ROC AUC std: 0.0103
+=== questions / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val ROC AUC: 0.7647, corresponding test ROC AUC: 0.7791 (step 77).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val ROC AUC: 0.7796, corresponding test ROC AUC: 0.7890 (step 75).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val ROC AUC: 0.7749, corresponding test ROC AUC: 0.7793 (step 106).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val ROC AUC: 0.7664, corresponding test ROC AUC: 0.7648 (step 97).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val ROC AUC: 0.7700, corresponding test ROC AUC: 0.7807 (step 82).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val ROC AUC: 0.7698, corresponding test ROC AUC: 0.7741 (step 94).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val ROC AUC: 0.7834, corresponding test ROC AUC: 0.7691 (step 87).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val ROC AUC: 0.7657, corresponding test ROC AUC: 0.7830 (step 73).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val ROC AUC: 0.7628, corresponding test ROC AUC: 0.7755 (step 101).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val ROC AUC: 0.7699, corresponding test ROC AUC: 0.7836 (step 99).
+
+Finished 10 runs.
+Val ROC AUC mean: 0.7707
+Val ROC AUC std: 0.0067
+Test ROC AUC mean: 0.7778
+Test ROC AUC std: 0.0072
+=== squirrel-filtered / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.3774, corresponding test accuracy: 0.4071 (step 7).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.3914, corresponding test accuracy: 0.3905 (step 5).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.3981, corresponding test accuracy: 0.4022 (step 7).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.3759, corresponding test accuracy: 0.3444 (step 11).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.3713, corresponding test accuracy: 0.3920 (step 5).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.3849, corresponding test accuracy: 0.4044 (step 6).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.4306, corresponding test accuracy: 0.3610 (step 5).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.3924, corresponding test accuracy: 0.3487 (step 1).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.3922, corresponding test accuracy: 0.3975 (step 6).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.4093, corresponding test accuracy: 0.3798 (step 5).
+
+Finished 10 runs.
+Val accuracy mean: 0.3924
+Val accuracy std: 0.0176
+Test accuracy mean: 0.3828
+Test accuracy std: 0.0234
+=== squirrel-filtered / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.3914, corresponding test accuracy: 0.4137 (step 6).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.3886, corresponding test accuracy: 0.3860 (step 3).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.4160, corresponding test accuracy: 0.4000 (step 6).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.4137, corresponding test accuracy: 0.3889 (step 4).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.3700, corresponding test accuracy: 0.4187 (step 7).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.3936, corresponding test accuracy: 0.4176 (step 4).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.4249, corresponding test accuracy: 0.3767 (step 7).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.3938, corresponding test accuracy: 0.3788 (step 6).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.4110, corresponding test accuracy: 0.4431 (step 6).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.4202, corresponding test accuracy: 0.3726 (step 5).
+
+Finished 10 runs.
+Val accuracy mean: 0.4023
+Val accuracy std: 0.0174
+Test accuracy mean: 0.3996
+Test accuracy std: 0.0230
+=== squirrel-filtered / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.3858, corresponding test accuracy: 0.3916 (step 6).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.3986, corresponding test accuracy: 0.4086 (step 5).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.4187, corresponding test accuracy: 0.3978 (step 6).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.3913, corresponding test accuracy: 0.3978 (step 2).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.3686, corresponding test accuracy: 0.4053 (step 6).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.3806, corresponding test accuracy: 0.4154 (step 6).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.4017, corresponding test accuracy: 0.3789 (step 4).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.3965, corresponding test accuracy: 0.3441 (step 6).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.3734, corresponding test accuracy: 0.3872 (step 1).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.3765, corresponding test accuracy: 0.3774 (step 6).
+
+Finished 10 runs.
+Val accuracy mean: 0.3892
+Val accuracy std: 0.0153
+Test accuracy mean: 0.3904
+Test accuracy std: 0.0204
+=== squirrel-filtered / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.3914, corresponding test accuracy: 0.4093 (step 5).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.3800, corresponding test accuracy: 0.3928 (step 4).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.4132, corresponding test accuracy: 0.3956 (step 5).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.3899, corresponding test accuracy: 0.3822 (step 4).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.3616, corresponding test accuracy: 0.3742 (step 11).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.3849, corresponding test accuracy: 0.3736 (step 3).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.4133, corresponding test accuracy: 0.3812 (step 6).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.3911, corresponding test accuracy: 0.3533 (step 1).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.3878, corresponding test accuracy: 0.4182 (step 5).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.4106, corresponding test accuracy: 0.3846 (step 5).
+
+Finished 10 runs.
+Val accuracy mean: 0.3924
+Val accuracy std: 0.0163
+Test accuracy mean: 0.3865
+Test accuracy std: 0.0186
+=== chameleon-filtered / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.4564, corresponding test accuracy: 0.3969 (step 3).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.3874, corresponding test accuracy: 0.4410 (step 10).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.4207, corresponding test accuracy: 0.3483 (step 7).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.4286, corresponding test accuracy: 0.4783 (step 8).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.4216, corresponding test accuracy: 0.4451 (step 8).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.4692, corresponding test accuracy: 0.4024 (step 9).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.4225, corresponding test accuracy: 0.3936 (step 13).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.4000, corresponding test accuracy: 0.3711 (step 13).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.4181, corresponding test accuracy: 0.3837 (step 6).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.4317, corresponding test accuracy: 0.3710 (step 4).
+
+Finished 10 runs.
+Val accuracy mean: 0.4256
+Val accuracy std: 0.0238
+Test accuracy mean: 0.4031
+Test accuracy std: 0.0400
+=== chameleon-filtered / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.4774, corresponding test accuracy: 0.4691 (step 9).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.4073, corresponding test accuracy: 0.4286 (step 11).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.4828, corresponding test accuracy: 0.3764 (step 8).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.4490, corresponding test accuracy: 0.4511 (step 7).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.4478, corresponding test accuracy: 0.4231 (step 11).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.4589, corresponding test accuracy: 0.4146 (step 10).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.4472, corresponding test accuracy: 0.4521 (step 17).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.4516, corresponding test accuracy: 0.4528 (step 49).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.4774, corresponding test accuracy: 0.4070 (step 10).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.4388, corresponding test accuracy: 0.4355 (step 8).
+
+Finished 10 runs.
+Val accuracy mean: 0.4538
+Val accuracy std: 0.0223
+Test accuracy mean: 0.4310
+Test accuracy std: 0.0273
+=== chameleon-filtered / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.4634, corresponding test accuracy: 0.4381 (step 6).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.4272, corresponding test accuracy: 0.4472 (step 9).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.4517, corresponding test accuracy: 0.3427 (step 14).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.4082, corresponding test accuracy: 0.4728 (step 13).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.4254, corresponding test accuracy: 0.3956 (step 4).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.4315, corresponding test accuracy: 0.3963 (step 12).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.4401, corresponding test accuracy: 0.4468 (step 41).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.4065, corresponding test accuracy: 0.4025 (step 4).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.4321, corresponding test accuracy: 0.3779 (step 7).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.4245, corresponding test accuracy: 0.3602 (step 13).
+
+Finished 10 runs.
+Val accuracy mean: 0.4310
+Val accuracy std: 0.0176
+Test accuracy mean: 0.4080
+Test accuracy std: 0.0421
+=== chameleon-filtered / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.4321, corresponding test accuracy: 0.4072 (step 14).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.3742, corresponding test accuracy: 0.4658 (step 7).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.4448, corresponding test accuracy: 0.3090 (step 9).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.4422, corresponding test accuracy: 0.4674 (step 6).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.4291, corresponding test accuracy: 0.4286 (step 10).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.4349, corresponding test accuracy: 0.3476 (step 6).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.4437, corresponding test accuracy: 0.4787 (step 7).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.4452, corresponding test accuracy: 0.4591 (step 18).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.4321, corresponding test accuracy: 0.3547 (step 12).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.4388, corresponding test accuracy: 0.4516 (step 8).
+
+Finished 10 runs.
+Val accuracy mean: 0.4317
+Val accuracy std: 0.0210
+Test accuracy mean: 0.4170
+Test accuracy std: 0.0599
+=== actor / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.3688, corresponding test accuracy: 0.3625 (step 9).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.3586, corresponding test accuracy: 0.3461 (step 9).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.3660, corresponding test accuracy: 0.3467 (step 10).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.3684, corresponding test accuracy: 0.3461 (step 12).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.3594, corresponding test accuracy: 0.3572 (step 8).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.3516, corresponding test accuracy: 0.3658 (step 9).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.3705, corresponding test accuracy: 0.3355 (step 6).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.3512, corresponding test accuracy: 0.3533 (step 9).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.3664, corresponding test accuracy: 0.3605 (step 13).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.3590, corresponding test accuracy: 0.3592 (step 8).
+
+Finished 10 runs.
+Val accuracy mean: 0.3620
+Val accuracy std: 0.0071
+Test accuracy mean: 0.3533
+Test accuracy std: 0.0095
+=== actor / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.3499, corresponding test accuracy: 0.3421 (step 13).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.3392, corresponding test accuracy: 0.3362 (step 11).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.3520, corresponding test accuracy: 0.3329 (step 7).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.3602, corresponding test accuracy: 0.3493 (step 13).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.3405, corresponding test accuracy: 0.3447 (step 15).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.3294, corresponding test accuracy: 0.3553 (step 10).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.3573, corresponding test accuracy: 0.3329 (step 10).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.3331, corresponding test accuracy: 0.3507 (step 11).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.3565, corresponding test accuracy: 0.3362 (step 13).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.3495, corresponding test accuracy: 0.3336 (step 10).
+
+Finished 10 runs.
+Val accuracy mean: 0.3468
+Val accuracy std: 0.0106
+Test accuracy mean: 0.3414
+Test accuracy std: 0.0083
+=== actor / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.3507, corresponding test accuracy: 0.3586 (step 7).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.3544, corresponding test accuracy: 0.3533 (step 8).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.3594, corresponding test accuracy: 0.3487 (step 7).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.3639, corresponding test accuracy: 0.3533 (step 8).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.3614, corresponding test accuracy: 0.3526 (step 8).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.3536, corresponding test accuracy: 0.3559 (step 8).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.3775, corresponding test accuracy: 0.3566 (step 8).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.3470, corresponding test accuracy: 0.3566 (step 8).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.3565, corresponding test accuracy: 0.3651 (step 10).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.3668, corresponding test accuracy: 0.3520 (step 9).
+
+Finished 10 runs.
+Val accuracy mean: 0.3591
+Val accuracy std: 0.0088
+Test accuracy mean: 0.3553
+Test accuracy std: 0.0045
+=== actor / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.3565, corresponding test accuracy: 0.3487 (step 14).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.3495, corresponding test accuracy: 0.3336 (step 12).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.3507, corresponding test accuracy: 0.3375 (step 10).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.3483, corresponding test accuracy: 0.3336 (step 13).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.3417, corresponding test accuracy: 0.3368 (step 11).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.3351, corresponding test accuracy: 0.3546 (step 14).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.3664, corresponding test accuracy: 0.3263 (step 9).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.3400, corresponding test accuracy: 0.3414 (step 19).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.3351, corresponding test accuracy: 0.3316 (step 14).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.3581, corresponding test accuracy: 0.3526 (step 11).
+
+Finished 10 runs.
+Val accuracy mean: 0.3481
+Val accuracy std: 0.0103
+Test accuracy mean: 0.3397
+Test accuracy std: 0.0095
+=== texas-4-classes / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.7414, corresponding test accuracy: 0.7297 (step 4).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.7931, corresponding test accuracy: 0.7838 (step 65).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.8644, corresponding test accuracy: 0.7500 (step 6).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.7797, corresponding test accuracy: 0.7838 (step 11).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8305, corresponding test accuracy: 0.6757 (step 11).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8305, corresponding test accuracy: 0.6216 (step 7).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.6949, corresponding test accuracy: 0.7027 (step 40).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8305, corresponding test accuracy: 0.6667 (step 5).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8814, corresponding test accuracy: 0.6216 (step 11).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.8136, corresponding test accuracy: 0.8108 (step 14).
+
+Finished 10 runs.
+Val accuracy mean: 0.8060
+Val accuracy std: 0.0561
+Test accuracy mean: 0.7146
+Test accuracy std: 0.0680
+=== texas-4-classes / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.7241, corresponding test accuracy: 0.7027 (step 18).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.7069, corresponding test accuracy: 0.6757 (step 10).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.7119, corresponding test accuracy: 0.6389 (step 4).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.6441, corresponding test accuracy: 0.7027 (step 4).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.7458, corresponding test accuracy: 0.6486 (step 2).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.7119, corresponding test accuracy: 0.7568 (step 7).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.6102, corresponding test accuracy: 0.6486 (step 4).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.7288, corresponding test accuracy: 0.6667 (step 2).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.5424, corresponding test accuracy: 0.5676 (step 4).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.7458, corresponding test accuracy: 0.7027 (step 15).
+
+Finished 10 runs.
+Val accuracy mean: 0.6872
+Val accuracy std: 0.0669
+Test accuracy mean: 0.6711
+Test accuracy std: 0.0507
+=== texas-4-classes / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.7586, corresponding test accuracy: 0.8108 (step 41).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.8621, corresponding test accuracy: 0.8378 (step 78).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.8475, corresponding test accuracy: 0.6667 (step 24).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.7966, corresponding test accuracy: 0.7838 (step 20).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.9661, corresponding test accuracy: 0.8108 (step 11).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8305, corresponding test accuracy: 0.8108 (step 7).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.8305, corresponding test accuracy: 0.8378 (step 25).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8305, corresponding test accuracy: 0.8611 (step 32).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.7458, corresponding test accuracy: 0.7838 (step 5).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.7119, corresponding test accuracy: 0.7568 (step 17).
+
+Finished 10 runs.
+Val accuracy mean: 0.8180
+Val accuracy std: 0.0712
+Test accuracy mean: 0.7960
+Test accuracy std: 0.0547
+=== texas-4-classes / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.7241, corresponding test accuracy: 0.7568 (step 17).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.7759, corresponding test accuracy: 0.6486 (step 7).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.6949, corresponding test accuracy: 0.6944 (step 9).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.7627, corresponding test accuracy: 0.7297 (step 10).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8136, corresponding test accuracy: 0.7568 (step 9).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.6949, corresponding test accuracy: 0.6486 (step 2).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.6949, corresponding test accuracy: 0.6757 (step 3).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.7966, corresponding test accuracy: 0.6944 (step 3).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.6441, corresponding test accuracy: 0.6757 (step 7).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.7458, corresponding test accuracy: 0.6757 (step 9).
+
+Finished 10 runs.
+Val accuracy mean: 0.7347
+Val accuracy std: 0.0535
+Test accuracy mean: 0.6956
+Test accuracy std: 0.0398
+=== cornell / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8305, corresponding test accuracy: 0.6216 (step 7).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.7288, corresponding test accuracy: 0.7297 (step 35).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.6610, corresponding test accuracy: 0.7297 (step 6).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.6780, corresponding test accuracy: 0.7838 (step 5).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.6780, corresponding test accuracy: 0.7027 (step 37).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.7458, corresponding test accuracy: 0.7297 (step 22).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.7288, corresponding test accuracy: 0.7297 (step 12).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.7966, corresponding test accuracy: 0.6216 (step 13).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.7288, corresponding test accuracy: 0.7027 (step 26).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.7627, corresponding test accuracy: 0.7297 (step 10).
+
+Finished 10 runs.
+Val accuracy mean: 0.7339
+Val accuracy std: 0.0536
+Test accuracy mean: 0.7081
+Test accuracy std: 0.0506
+=== cornell / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.7119, corresponding test accuracy: 0.5676 (step 5).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.6271, corresponding test accuracy: 0.5946 (step 6).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.5254, corresponding test accuracy: 0.7297 (step 4).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.5424, corresponding test accuracy: 0.7027 (step 4).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.6271, corresponding test accuracy: 0.5946 (step 3).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.6949, corresponding test accuracy: 0.5676 (step 10).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.5932, corresponding test accuracy: 0.5405 (step 15).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.7627, corresponding test accuracy: 0.5676 (step 16).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.6610, corresponding test accuracy: 0.5676 (step 7).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.6102, corresponding test accuracy: 0.5676 (step 4).
+
+Finished 10 runs.
+Val accuracy mean: 0.6356
+Val accuracy std: 0.0742
+Test accuracy mean: 0.6000
+Test accuracy std: 0.0634
+=== cornell / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8136, corresponding test accuracy: 0.7297 (step 32).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.7119, corresponding test accuracy: 0.7027 (step 8).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.6949, corresponding test accuracy: 0.7027 (step 7).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.6441, corresponding test accuracy: 0.7568 (step 38).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.6780, corresponding test accuracy: 0.7297 (step 4).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.6949, corresponding test accuracy: 0.5405 (step 6).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.7288, corresponding test accuracy: 0.7297 (step 17).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.7966, corresponding test accuracy: 0.6757 (step 10).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8136, corresponding test accuracy: 0.7027 (step 15).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.7966, corresponding test accuracy: 0.6486 (step 12).
+
+Finished 10 runs.
+Val accuracy mean: 0.7373
+Val accuracy std: 0.0625
+Test accuracy mean: 0.6919
+Test accuracy std: 0.0614
+=== cornell / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.6271, corresponding test accuracy: 0.7297 (step 3).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.6949, corresponding test accuracy: 0.6757 (step 16).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.7119, corresponding test accuracy: 0.7297 (step 5).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.6102, corresponding test accuracy: 0.6757 (step 3).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.6610, corresponding test accuracy: 0.6486 (step 3).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.6610, corresponding test accuracy: 0.5676 (step 3).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.6102, corresponding test accuracy: 0.5946 (step 40).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.7797, corresponding test accuracy: 0.6216 (step 10).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.6780, corresponding test accuracy: 0.6216 (step 14).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.7119, corresponding test accuracy: 0.6216 (step 7).
+
+Finished 10 runs.
+Val accuracy mean: 0.6746
+Val accuracy std: 0.0529
+Test accuracy mean: 0.6486
+Test accuracy std: 0.0541
+=== wisconsin / ResNet ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8000, corresponding test accuracy: 0.7647 (step 5).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.7500, corresponding test accuracy: 0.8235 (step 7).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.8375, corresponding test accuracy: 0.7451 (step 23).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.7625, corresponding test accuracy: 0.7255 (step 4).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8000, corresponding test accuracy: 0.8431 (step 7).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8250, corresponding test accuracy: 0.7647 (step 14).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.7875, corresponding test accuracy: 0.8235 (step 24).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8500, corresponding test accuracy: 0.7647 (step 12).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8625, corresponding test accuracy: 0.7843 (step 31).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.8500, corresponding test accuracy: 0.8824 (step 46).
+
+Finished 10 runs.
+Val accuracy mean: 0.8125
+Val accuracy std: 0.0386
+Test accuracy mean: 0.7922
+Test accuracy std: 0.0491
+=== wisconsin / GCN ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.7750, corresponding test accuracy: 0.7059 (step 5).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.7500, corresponding test accuracy: 0.7647 (step 7).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.7500, corresponding test accuracy: 0.7059 (step 6).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.7625, corresponding test accuracy: 0.7647 (step 4).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.7250, corresponding test accuracy: 0.7843 (step 8).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.7625, corresponding test accuracy: 0.7059 (step 9).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.7625, corresponding test accuracy: 0.8235 (step 23).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8000, corresponding test accuracy: 0.6667 (step 13).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.7875, corresponding test accuracy: 0.7451 (step 6).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.7750, corresponding test accuracy: 0.8824 (step 14).
+
+Finished 10 runs.
+Val accuracy mean: 0.7650
+Val accuracy std: 0.0211
+Test accuracy mean: 0.7549
+Test accuracy std: 0.0642
+=== wisconsin / SAGE ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8500, corresponding test accuracy: 0.7647 (step 7).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.7875, corresponding test accuracy: 0.8431 (step 7).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.8125, corresponding test accuracy: 0.8627 (step 13).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.8500, corresponding test accuracy: 0.8235 (step 30).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.8000, corresponding test accuracy: 0.7843 (step 33).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.8000, corresponding test accuracy: 0.8039 (step 7).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.8125, corresponding test accuracy: 0.8431 (step 9).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8500, corresponding test accuracy: 0.8039 (step 6).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.8375, corresponding test accuracy: 0.8039 (step 5).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.8250, corresponding test accuracy: 0.8824 (step 24).
+
+Finished 10 runs.
+Val accuracy mean: 0.8225
+Val accuracy std: 0.0234
+Test accuracy mean: 0.8216
+Test accuracy std: 0.0363
+=== wisconsin / GAT ===
+Starting run 1/10 (using data split 1/10)...
+Finished run 1. Best val accuracy: 0.8000, corresponding test accuracy: 0.6863 (step 5).
+
+Starting run 2/10 (using data split 2/10)...
+Finished run 2. Best val accuracy: 0.7875, corresponding test accuracy: 0.7843 (step 6).
+
+Starting run 3/10 (using data split 3/10)...
+Finished run 3. Best val accuracy: 0.7500, corresponding test accuracy: 0.6275 (step 4).
+
+Starting run 4/10 (using data split 4/10)...
+Finished run 4. Best val accuracy: 0.8375, corresponding test accuracy: 0.7255 (step 3).
+
+Starting run 5/10 (using data split 5/10)...
+Finished run 5. Best val accuracy: 0.7625, corresponding test accuracy: 0.7647 (step 3).
+
+Starting run 6/10 (using data split 6/10)...
+Finished run 6. Best val accuracy: 0.7875, corresponding test accuracy: 0.8039 (step 3).
+
+Starting run 7/10 (using data split 7/10)...
+Finished run 7. Best val accuracy: 0.7875, corresponding test accuracy: 0.7843 (step 4).
+
+Starting run 8/10 (using data split 8/10)...
+Finished run 8. Best val accuracy: 0.8000, corresponding test accuracy: 0.6275 (step 17).
+
+Starting run 9/10 (using data split 9/10)...
+Finished run 9. Best val accuracy: 0.7750, corresponding test accuracy: 0.7451 (step 4).
+
+Starting run 10/10 (using data split 10/10)...
+Finished run 10. Best val accuracy: 0.7875, corresponding test accuracy: 0.9216 (step 5).
+
+Finished 10 runs.
+Val accuracy mean: 0.7875
+Val accuracy std: 0.0236
+Test accuracy mean: 0.7471
+Test accuracy std: 0.0879
