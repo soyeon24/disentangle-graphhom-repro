@@ -1,37 +1,36 @@
-cd ~/repro && cat > README.md << 'MDEOF'
-# Disentangle_GraphHom 재현 (NeurIPS 2024)
+# Reproducing "Disentangling Graph Homophily for GNNs" (NeurIPS 2024)
 
-논문 **"What Is Missing In Homophily? Disentangling Graph Homophily For Graph Neural Networks"** (NeurIPS 2024) 의 공개 코드를 서울시립대 UBAI 슈퍼컴퓨터에서 재현한 기록입니다.
+A reproduction of **"What Is Missing In Homophily? Disentangling Graph Homophily For Graph Neural Networks"** (NeurIPS 2024), run on the UBAI supercomputing cluster at the University of Seoul.
 
-- 논문: [NeurIPS 2024 Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/file/7e810b2c75d69be186cadd2fe3febeab-Paper-Conference.pdf)
-- 원본 코드: [zylMozart/Disentangle_GraphHom](https://github.com/zylMozart/Disentangle_GraphHom)
-
----
-
-## 요약
-
-| 항목 | 내용 |
-|---|---|
-| 학습 | 18개 데이터셋 × 4개 모델 × 10 runs = **720회** (약 25분) |
-| 지표 계산 | 15종 호모필리 지표 × 18개 데이터셋 = **270회** (약 2시간) |
-| 정확도 재현 | 논문 Table 4 대비 **대부분 0.5%p 이내** 일치 |
-| 지표 재현 | 논문 Table 3과 **소수점 4자리까지** 일치 |
+- Paper: [NeurIPS 2024 Proceedings](https://proceedings.neurips.cc/paper_files/paper/2024/file/7e810b2c75d69be186cadd2fe3febeab-Paper-Conference.pdf)
+- Original code: [zylMozart/Disentangle_GraphHom](https://github.com/zylMozart/Disentangle_GraphHom)
 
 ---
 
-## 실행 환경
+## Summary
 
-| 구분 | 사양 |
+| Item | Detail |
 |---|---|
-| 클러스터 | UBAI (서울시립대 도시과학빅데이터AI연구원), Slurm |
-| 파티션 / GPU | `gpu1` / NVIDIA RTX 3090 |
-| CUDA | `cuda/11.6.2` (module load) |
+| Training | 18 datasets × 4 models × 10 runs = **720 runs** (~25 min) |
+| Metric computation | 15 homophily metrics × 18 datasets = **270 runs** (~2 h) |
+| Accuracy | Within **0.5%p of Table 4** for most datasets |
+| Homophily metrics | Match **Table 3 to 4 decimal places** |
+
+---
+
+## Environment
+
+| Component | Version |
+|---|---|
+| Cluster | UBAI (Urban Big data and AI Institute, University of Seoul), Slurm |
+| Partition / GPU | `gpu1` / NVIDIA RTX 3090 |
+| CUDA | `cuda/11.6.2` (via `module load`) |
 | Python | 3.7.12 (Miniconda, conda-forge) |
 | PyTorch | 1.12.0+cu116 |
 | PyG | torch-geometric 2.3.1 |
 | DGL | 1.1.2+cu116 |
 
-### 설치
+### Setup
 
 ```bash
 conda create -n trihom python=3.7 -c conda-forge --override-channels -y
@@ -41,7 +40,7 @@ module load cuda/11.6.2
 pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 \
   --extra-index-url https://download.pytorch.org/whl/cu116
 
-# PyG 계열 - 버전 고정 필수
+# PyG extensions - pinning versions is required, see note below
 pip install --no-cache-dir \
   torch-scatter==2.0.9 torch-sparse==0.6.14 \
   torch-cluster==1.6.0 torch-spline-conv==1.2.1 \
@@ -53,26 +52,27 @@ pip install dgl==1.1.2+cu116 -f https://data.dgl.ai/wheels/cu116/repo.html
 export DGLBACKEND=pytorch
 ```
 
-### 설치 시 함정
+### Installation pitfall
 
-**PyG wheel 버전을 반드시 고정해야 합니다.** 버전을 명시하지 않으면 pip가 PyPI 최신 버전(torch-scatter 2.1.1, torch-sparse 0.6.17)을 찾는데, 이 버전들은 torch-1.12.0+cu116 wheel 인덱스에 존재하지 않습니다. 결과적으로 pip가 조용히 소스 배포판(.tar.gz)으로 폴백해 CUDA 컴파일을 시도하고, 30분 이상 걸리다 실패합니다.
+**Pin the PyG extension versions explicitly.** Without version pins, pip resolves to the latest PyPI releases (`torch-scatter 2.1.1`, `torch-sparse 0.6.17`), which are absent from the `torch-1.12.0+cu116` wheel index. Pip then silently falls back to source distributions and attempts a CUDA compile that takes 30+ minutes before failing.
 
-인덱스에 실제로 존재하는 버전은 다음으로 확인할 수 있습니다.
+To see which versions the index actually carries:
 
 ```bash
 curl -s "https://data.pyg.org/whl/torch-1.12.0%2Bcu116.html" \
   | grep -o '[a-z_]*-[0-9][^"<]*cp37-cp37m-linux[^"<]*' | sort -u
 ```
 
-로그에 `Downloading ...whl`이 보이면 정상, `Building wheel for ... (setup.py)`가 보이면 잘못된 경로입니다.
+`Downloading ...whl` in the pip log means the wheel was found; `Building wheel for ... (setup.py)` means it was not.
 
 ---
 
-## 데이터 준비
+## Data preparation
 
 ```bash
 mkdir -p data experiments logs
 
+# Datasets fetched automatically via DGL / PyG / OGB
 python -c "
 from preprocess_dataset import load_new_dataset
 for d in ['cora','citeseer','pubmed','amazon-photo','amazon-computer','coauthor-cs','wikics']:
@@ -80,32 +80,33 @@ for d in ['cora','citeseer','pubmed','amazon-photo','amazon-computer','coauthor-
                      train_prop=0.6, valid_prop=0.2, num_data_splits=10)
 "
 
+# Heterophilous datasets require a manual download
 git clone https://github.com/yandex-research/heterophilous-graphs.git
 cp heterophilous-graphs/data/*.npz data/
 ```
 
-코드는 `data/{name}.npz` 형식을 기대하며, 데이터셋 이름의 하이픈은 언더스코어로 변환됩니다 (`texas-4-classes` → `texas_4_classes.npz`).
+The code expects `data/{name}.npz`, with hyphens converted to underscores (`texas-4-classes` → `texas_4_classes.npz`). Filenames in the yandex repo already follow this convention.
 
 ---
 
-## 실행
+## Running
 
 ```bash
-sbatch scripts/run.sh      # 학습
-sbatch scripts/hom.sh      # 호모필리 지표
-python scripts/collect.py  # 로그 -> results/homophily.csv
-python scripts/fix_hs.py   # 구조 호모필리 재계산
-python scripts/report.py   # 정확도 표 + 논문 대조
-python scripts/analyze.py  # 지표 <-> 성능 상관계수
+sbatch scripts/run.sh      # training
+sbatch scripts/hom.sh      # homophily metrics
+python scripts/collect.py  # parse logs -> results/homophily.csv
+python scripts/fix_hs.py   # recompute structural homophily
+python scripts/report.py   # accuracy table + comparison against the paper
+python scripts/analyze.py  # metric-performance correlations
 ```
 
-`--save_dir`는 디렉토리가 아니라 **CSV 파일 경로**를 받습니다. 코드가 `df.to_csv(self.save_dir, mode='a')`로 직접 쓰기 때문에, 디렉토리를 넘기면 학습을 모두 마친 뒤 저장 단계에서 `IsADirectoryError`가 발생합니다.
+Note that `--save_dir` expects a **CSV file path**, not a directory. The code calls `df.to_csv(self.save_dir, mode='a')` directly, so passing a directory raises `IsADirectoryError` after training has already finished.
 
 ---
 
-## 결과
+## Results
 
-### 노드 분류 정확도 (%)
+### Node classification accuracy (%)
 
 | Dataset | MLP | GCN | SAGE | GAT |
 |---|---|---|---|---|
@@ -128,11 +129,11 @@ python scripts/analyze.py  # 지표 <-> 성능 상관계수
 | wikics | 81.12 | 85.03 | 85.65 | 85.66 |
 | wisconsin | 79.22 | 75.49 | 82.16 | 74.71 |
 
-각 값은 10회 실행(서로 다른 data split)의 평균입니다. 표준편차를 포함한 원본은 `results/result.csv`에 있습니다.
+Each figure is the mean over 10 runs on different data splits. Standard deviations and the full hyperparameter record are in `results/result.csv`.
 
-### 논문 Table 4 대조 (GCN)
+### Comparison against Table 4 (GCN)
 
-| Dataset | 논문 | 재현 | 차이 |
+| Dataset | Paper | Reproduced | Diff |
 |---|---|---|---|
 | amazon-computer | 91.58 | 91.55 | -0.03 |
 | coauthor-cs | 95.68 | 95.61 | -0.07 |
@@ -146,40 +147,40 @@ python scripts/analyze.py  # 지표 <-> 성능 상관계수
 | tolokers | 84.55 | 83.52 | -1.03 |
 | roman-empire | 78.76 | 77.19 | -1.57 |
 
-11개 중 8개가 0.5%p 이내입니다. 전반적으로 재현값이 근소하게 낮은 경향이 있는데, 논문의 하이퍼파라미터 그리드서치(72개 조합)를 생략하고 단일 설정(hidden_dim=256, dropout=0.4, lr=0.001, num_layers=2)으로 고정한 결과로 보입니다.
+Eight of eleven fall within 0.5%p. The reproduced numbers skew slightly low overall, which is consistent with skipping the paper's hyperparameter grid search (72 configurations per dataset-model pair) in favour of a single fixed setting (`hidden_dim=256, dropout=0.4, lr=0.001, num_layers=2`).
 
-### 관찰
+### Observations
 
-이종성 그래프에서 논문이 지적한 현상이 그대로 나타났습니다.
+The phenomena the paper highlights show up clearly in the heterophilous datasets.
 
-- **minesweeper**: MLP 50.72% -> GCN 89.70%. label homophily가 중간 수준(0.68)임에도 GNN 이득이 39%p에 달합니다. 라벨 기반 지표만으로는 설명되지 않는 사례입니다.
-- **cornell / wisconsin**: MLP가 GCN을 각각 10.8%p, 3.7%p 앞섭니다.
-- **actor**: 네 모델이 34~35%대에 밀집. 그래프 구조가 분류에 기여하지 못합니다.
+- **minesweeper**: MLP 50.72% → GCN 89.70%. Label homophily sits at a moderate 0.68, yet the GNN gain is 39%p. Label-based metrics alone do not account for this.
+- **cornell / wisconsin**: MLP beats GCN by 10.8%p and 3.7%p respectively.
+- **actor**: all four models cluster around 34-35%, meaning graph structure contributes essentially nothing.
 
-### 호모필리 지표
+### Homophily metrics
 
-15종 전체는 `results/homophily.csv`에 있습니다. 논문 Table 3과 대조한 일부입니다.
+All 15 metrics are in `results/homophily.csv`. A sample compared against Table 3:
 
-| Dataset | h_class (논문) | h_class (재현) | h_node (논문) | h_node (재현) |
+| Dataset | h_class (paper) | h_class (repro) | h_node (paper) | h_node (repro) |
 |---|---|---|---|---|
 | cora | 0.7657 | 0.7657 | 0.8252 | 0.8252 |
 | roman-empire | 0.0208 | 0.0208 | 0.0460 | 0.0460 |
 | amazon-ratings | 0.1266 | 0.1266 | 0.3757 | 0.3757 |
 
-### 구조 호모필리 (h_S) 재계산
+### Recomputing structural homophily (h_S)
 
-`homophily_test.py`를 그대로 실행하면 논문 Table 3과 다른 값이 나옵니다 (Cora 기준 0.1191 vs 논문 0.6164). `datasets.py`의 `structural_homophily` property가 두 개의 값을 반환하는데, 논문 Definition 2에 해당하는 것은 두 번째(`h_N`)입니다.
+Running `homophily_test.py` as-is yields values that differ from Table 3 (0.1191 vs 0.6164 for Cora). The `structural_homophily` property in `datasets.py` returns two values, and the one matching Definition 2 in the paper is the second (`h_N`):
 
 ```python
-h_N_item = (1 - std_list/std_max).mean()   # 논문 정의
+h_N_item = (1 - std_list/std_max).mean()   # matches the paper's definition
 h_N.append(h_N_item)
 ...
-return std_list.mean(), h_N                # 호출부는 첫 번째를 사용
+return std_list.mean(), h_N                # the caller uses the first value
 ```
 
-`h_N.mean()`을 직접 호출하면 논문 값과 일치합니다. `scripts/fix_hs.py`가 이 계산을 수행합니다.
+Calling `h_N.mean()` directly reproduces the published numbers. `scripts/fix_hs.py` does this.
 
-| Dataset | 논문 Table 3 | 재계산 |
+| Dataset | Table 3 | Recomputed |
 |---|---|---|
 | cora | 0.6164 | 0.6164 |
 | citeseer | 0.3909 | 0.3909 |
@@ -189,16 +190,41 @@ return std_list.mean(), h_N                # 호출부는 첫 번째를 사용
 | actor | 0.3841 | 0.3841 |
 | cornell | 0.3676 | 0.3676 |
 
-18개 데이터셋 전부 소수점 4자리까지 일치합니다.
+All 18 datasets match to four decimal places.
 
 ---
 
-## 재현하지 않은 부분
+## Not reproduced
 
-- **데이터셋 13개**: flickr, ogbn-arxiv, genius, twitch-* 시리즈. 논문은 31개를 사용하며 본 재현은 18개입니다.
-- **하이퍼파라미터 그리드서치**: 논문은 데이터셋/모델당 72개 조합을 탐색합니다. 본 재현은 단일 설정을 사용했습니다.
-- **합성 데이터 스윕 (Figure 2)**: h_L × h_S × h_F 격자 탐색. 약 22,000 runs 규모로 별도 계산 예산이 필요합니다.
+- **13 datasets**: flickr, ogbn-arxiv, genius, and the twitch-* series. The paper uses 31 datasets; this reproduction covers 18.
+- **Hyperparameter grid search**: the paper explores 72 configurations per dataset-model pair. A single fixed configuration was used here.
+- **Synthetic sweep (Figure 2)**: the h_L × h_S × h_F grid, roughly 22,000 runs, which needs a separate compute budget.
 
 ---
 
-## 디렉토리 구조
+## Repository layout
+
+```
+.
+├── README.md
+├── scripts/
+│   ├── run.sh          # Slurm - training batch
+│   ├── hom.sh          # Slurm - homophily metric batch
+│   ├── collect.py      # log parsing -> homophily.csv
+│   ├── fix_hs.py       # structural homophily recomputation
+│   ├── report.py       # accuracy table + paper comparison
+│   └── analyze.py      # metric-performance correlations
+├── results/
+│   ├── result.csv      # training results with full hyperparameters
+│   ├── homophily.csv   # 15 metrics × 18 datasets
+│   └── h_s_fixed.csv   # recomputed h_S
+└── logs/
+    ├── train.out
+    └── homophily.out
+```
+
+---
+
+## Acknowledgement
+
+The author acknowledges the Urban Big data and AI Institute of the University of Seoul supercomputing resources (http://ubai.uos.ac.kr) made available for conducting the research reported in this repository.
