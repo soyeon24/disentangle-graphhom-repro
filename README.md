@@ -225,6 +225,17 @@ All 18 datasets match to four decimal places.
 
 ---
 
+The first return value is `std_list.mean()`, where `std_list` is left over from the final
+loop iteration — a raw standard deviation for the last class processed, with the
+`1 - sigma/sigma_max` normalisation never applied. Since `std_max` is a scalar,
+`1 - 0.1191/0.34993 = 0.6597` is exactly that class's per-class value, which is why the
+number looks plausible enough to pass unnoticed.
+
+Reported upstream on 2026-09-08:
+[zylMozart/Disentangle_GraphHom#3](https://github.com/zylMozart/Disentangle_GraphHom/issues/3).
+
+
+
 ## Acknowledgement
 
 The author acknowledges the Urban Big data and AI Institute of the University of Seoul supercomputing resources (http://ubai.uos.ac.kr) made available for conducting the research reported in this repository.
