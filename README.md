@@ -1,4 +1,4 @@
-# Reproducing "Disentangling Graph Homophily for GNNs" (NeurIPS 2024)
+# Reproducing "What Is Missing For Graph Homophily? Disentangling Graph Homophily For Graph Neural Networks" (NeurIPS 2024)
 
 A reproduction of **"What Is Missing In Homophily? Disentangling Graph Homophily For Graph Neural Networks"** (NeurIPS 2024), run on the UBAI supercomputing cluster at the University of Seoul.
 
@@ -13,7 +13,7 @@ A reproduction of **"What Is Missing In Homophily? Disentangling Graph Homophily
 |---|---|
 | Training | 18 datasets × 4 models × 10 runs = **720 runs** (~25 min) |
 | Metric computation | 15 homophily metrics × 18 datasets = **270 runs** (~2 h) |
-| Accuracy | Within **0.5%p of Table 4** for most datasets |
+| Accuracy | Within **0.5 pp of Table 4** for most datasets |
 | Homophily metrics | Match **Table 3 to 4 decimal places** |
 
 ---
@@ -29,6 +29,7 @@ A reproduction of **"What Is Missing In Homophily? Disentangling Graph Homophily
 | PyTorch | 1.12.0+cu116 |
 | PyG | torch-geometric 2.3.1 |
 | DGL | 1.1.2+cu116 |
+| Upstream code | [zylMozart/Disentangle_GraphHom](https://github.com/zylMozart/Disentangle_GraphHom) at commit [`fea91b7`](https://github.com/zylMozart/Disentangle_GraphHom/commit/fea91b7735ec52f3e747f1fdd3d61c79db3c03f6) |
 
 ### Setup
 
@@ -147,14 +148,14 @@ Each figure is the mean over 10 runs on different data splits. Standard deviatio
 | tolokers | 84.55 | 83.52 | -1.03 |
 | roman-empire | 78.76 | 77.19 | -1.57 |
 
-Eight of eleven fall within 0.5%p. The reproduced numbers skew slightly low overall, which is consistent with skipping the paper's hyperparameter grid search (72 configurations per dataset-model pair) in favour of a single fixed setting (`hidden_dim=256, dropout=0.4, lr=0.001, num_layers=2`).
+Eight of eleven fall within 0.5 pp. The reproduced numbers skew slightly low overall, which is consistent with skipping the paper's hyperparameter grid search (72 configurations per dataset-model pair) in favour of a single fixed setting (`hidden_dim=256, dropout=0.4, lr=0.001, num_layers=2`).
 
 ### Observations
 
 The phenomena the paper highlights show up clearly in the heterophilous datasets.
 
-- **minesweeper**: MLP 50.72% → GCN 89.70%. Label homophily sits at a moderate 0.68, yet the GNN gain is 39%p. Label-based metrics alone do not account for this.
-- **cornell / wisconsin**: MLP beats GCN by 10.8%p and 3.7%p respectively.
+- **minesweeper**: MLP 50.72% → GCN 89.70%. Label homophily sits at a moderate 0.68, yet the GNN gain is 39 pp. Label-based metrics alone do not account for this.
+- **cornell / wisconsin**: MLP beats GCN by 10.8 pp and 3.7 pp respectively.
 - **actor**: all four models cluster around 34-35%, meaning graph structure contributes essentially nothing.
 
 ### Homophily metrics
@@ -199,7 +200,8 @@ loop iteration — a raw standard deviation for the last class processed, with t
 number looks plausible enough to pass unnoticed.
 
 Reported upstream on 2026-09-08:
-[zylMozart/Disentangle_GraphHom#3](https://github.com/zylMozart/Disentangle_GraphHom/issues/3).
+[zylMozart/Disentangle_GraphHom#3](https://github.com/zylMozart/Disentangle_GraphHom/issues/3)
+([archived copy of the full body](docs/upstream-issue-3.md)).
 
 ---
 
